@@ -63,7 +63,13 @@ land, unfortunately dogs are not permitted to accompany runners or walkers compe
 
 # How to Enter
 
-Main event entry fee is £15 (affiliated) for runners and walkers, or £17 (unaffiliated).
+Main Adult event entry fee:
+Prior to 1/9/2025 is £16 (affiliated) for runners and walkers, or £18 (unaffiliated).
+Between  1/9/2025-29/09/2025 is £18 (affiliated) for runners and walkers, or £20 (unaffiliated).
+From     29/9/2025 is £20 (affiliated) for runners and walkers, or £22 (unaffiliated).
+
+Junior Walkers £6 affiliated and unaffiliated
+
 Junior Challenge is £4 and entry on the day at the event headquarters.
 
 
