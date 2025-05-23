@@ -4,7 +4,7 @@ title: Race Information
 permalink: /raceinformation/
 ---
 
-## Charnwood Challenge 2024
+## Charnwood Challenge 2025
 Date of **Sunday 5th October 2025** has been confirmed for this year's event.
 Enter at [SI Entries](https://www.sientries.co.uk/list.php?event_id=15467)!
 
