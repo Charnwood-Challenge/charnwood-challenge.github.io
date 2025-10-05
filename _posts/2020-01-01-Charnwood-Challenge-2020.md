@@ -7,4 +7,3 @@ A slightly belated 'Happy New Year' to all our Charnwood Challenge supporters, a
 (And apologies that we are currently having some difficulties with our website, which we hope to resolve shortly.)
 
 ![Runners](/images/post1.jpg)
-
