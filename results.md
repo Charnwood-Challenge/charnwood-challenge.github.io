@@ -6,27 +6,205 @@ permalink: /results/
 
 You can filter the results by entrant (text search), gender, or team.
 
+## Jump to Year
+- [2025](#2025)
+- [2024](#2024)
+- [2023](#2023)
+- [2022](#2022)
+- [2021](#2021)
+- [2020](#2020)
+- [2019](#2019)
 
-# 2024
+
+# 2025
 
 ## 10 Mile Challenge Runners Combined Results
 
-| Place | Bib | Time     | Entrant              | Gender | Team                            |
-|-------|-----|----------|----------------------|--------|---------------------------------|
-
+| Place | Bib | Time        | Entrant                 | Gender | Team                          |
+|-------|-----|-------------|-------------------------|--------|-------------------------------|
+| 1     | 511 | 01:07:33    | Loïs Mougin             | Male   |                               |
+| 2     | 557 | 01:11:55    | Danny Warren            | Male   | Badgers                       |
+| 3     | 570 | 01:12:41    | Lee Oconnor             | Male   | Poplar Running Club           |
+| 4     | 405 | 01:14:53    | Philip Ainsley          | Male   |                               |
+| 5     | 551 | 01:15:36    | Bob Templeman           | Male   | Formula One Circuit Crew      |
+| 6     | 515 | 01:15:51    | Bruno Nikoloff          | Male   | Wreake Runners                |
+| 7     | 462 | 01:17:20    | Peter Armstrong         | Male   | Hermitage Harriers            |
+| 8     | 571 | 01:17:50    | Nick Barker             | Male   | Poplar Running Club           |
+| 9     | 547 | 01:18:54    | Alex Taylor             | Male   | Eton Manor AC                 |
+| 10    | 428 | 01:20:54    | Andy Brown              | Male   | Poplar Running Club           |
+| 11    | 455 | 01:21:08    | Phil Dunning            | Male   | Ivanhoe Runners               |
+| 12    | 439 | 01:22:31    | Martin Button           | Male   | Poplar Running Club           |
+| 13    | 405 | 01:24:37    | Philip Ainsley          | Male   |                               |
+| 14    | 474 | 01:24:46    | Philip Higgs            | Male   | Shepshed Running Club         |
+| 15    | 426 | 01:25:18    | Lizzie Borrajo          | Female | Wreake Runners                |
+| 16    | 441 | 01:26:18    | Joe Cater               | Male   |                               |
+| 17    | 418 | 01:26:24    | Louis Barnes            | Male   | Ivanhoe Runners               |
+| 18    | 421 | 01:26:45    | Peter Bee               | Male   |                               |
+| 19    | 510 | 01:27:46    | Amy Morrison            | Female |                               |
+| 20    | 522 | 01:28:04    | Tom Piggin              | Male   |                               |
+| 21    | 458 | 01:28:10    | Alex Ferrari            | Male   | Holme Pierrepont Running Club |
+| 22    | 413 | 01:28:12    | Antony Armitage         | Male   | Barrow Runners                |
+| 23    | 424 | 01:30:36    | James Booker            | Male   |                               |
+| 24    | 500 | 01:30:43    | Luke Martin             | Male   | Barrow Runners                |
+| 25    | 440 | 01:30:51    | Gareth Carroll          | Male   |                               |
+| 26    | 552 | 01:30:56    | Sam Templeman           | Male   | Vegan Runners                 |
+| 27    | 537 | 01:30:58    | Thomas Simpson          | Male   |                               |
+| 28    | 469 | 01:31:00    | Danny Hall              | Male   | Barrow Runners                |
+| 29    | 565 | 01:31:20    | James Wright            | Male   |                               |
+| 30    | 564 | 01:31:24    | Chris Wright            | Male   |                               |
+| 31    | 411 | 01:31:29    | Andrew Allsop           | Male   | Ivanhoe Runners               |
+| 32    | 545 | 01:32:50    | Adam Sturgess           | Male   |                               |
+| 33    | 548 | 01:33:08    | Chris Taylor            | Male   |                               |
+| 34    | 470 | 01:33:38    | Sheryl Heath            | Female |                               |
+| 35    | 452 | 01:34:41    | Matthew Denniff         | Male   |                               |
+| 36    | 477 | 01:34:44    | Glyn House              | Male   |                               |
+| 37    | 446 | 01:35:08    | Malcolm Cook            | Male   | Barrow Runners                |
+| 38    | 456 | 01:35:49    | Jamie Lloyd Elliott     | Male   | Lindley Running Club          |
+| 39    | 536 | 01:36:42    | Bryan Shipley           | Male   |                               |
+| 40    | 567 | 01:36:56    | Chris Bailey            | Male   | HIGHGATE HARRIERS             |
+| 41    | 521 | 01:37:08    | Jim Phillips            | Male   |                               |
+| 42    | 408 | 01:37:45    | Jade Allan              | Female |                               |
+| 43    | 526 | 01:37:57    | Dean Randle             | Male   |                               |
+| 44    | 487 | 01:38:52    | Jon Jorgensen           | Male   |                               |
+| 45    | 457 | 01:38:55    | Philip Fantham          | Male   | Barrow Runners                |
+| 46    | 503 | 01:39:05    | Pawel Mazur             | Male   | Poplar Running Club           |
+| 47    | 435 | 01:39:35    | Alice Bucklow           | Female | Hermitage Harriers            |
+| 48    | 563 | 01:40:10    | James Woodford          | Male   | Barrow Runners                |
+| 49    | 442 | 01:40:30    | James Chandler          | Male   |                               |
+| 50    | 423 | 01:40:55    | Antonia Blackwell       | Female | Ivanhoe Runners               |
+| 51    | 504 | 01:40:57    | Christopher Merrick     | Male   | Squirrels Running Group       |
+| 52    | 533 | 01:41:17    | Luke Saxton             | Male   |                               |
+| 53    | 553 | 01:42:08    | James Thomas            | Male   |                               |
+| 54    | 443 | 01:42:42    | Lester Cockerill        | Male   |                               |
+| 55    | 422 | 01:42:50    | Richard Bibb            | Male   | Shepshed Running Club         |
+| 56    | 549 | 01:43:18    | Duncan Taylor           | Male   |                               |
+| 57    | 501 | 01:43:25    | John Matravers          | Male   |                               |
+| 58    | 525 | 01:43:34    | Axel Pouzet             | Male   |                               |
+| 59    | 507 | 01:43:39    | Robert Mooney           | Male   |                               |
+| 60    | 491 | 01:44:09    | Marc Kinch              | Male   | Long Eaton Running Club       |
+| 61    | 532 | 01:44:11    | Jimmy Saunders          | Male   |                               |
+| 62    | 427 | 01:44:41    | Mark Bradford           | Male   | Ivanhoe Runners               |
+| 63    | 449 | 01:44:56    | Scott Cramp             | Male   |                               |
+| 64    | 562 | 01:45:24    | Mark Wittering          | Male   | Huncote Harriers              |
+| 65    | 516 | 01:45:45    | Claire Obrien           | Female |                               |
+| 66    | 517 | 01:45:47    | Harry Obrien            | Male   |                               |
+| 67    | 502 | 01:46:19    | Joanne Matthews         | Female | Hermitage Harriers            |
+| 68    | 451 | 01:46:21    | Neil Danby              | Male   | Hermitage Harriers            |
+| 69    | 484 | 01:47:11    | Helen Jinks             | Female | Speedhub Triathlon Club       |
+| 70    | 572 | 01:48:49    | Kathy Robinson          | Female | Barrow Runners                |
+| 71    | 444 | 01:48:52    | Amy Collier             | Female |                               |
+| 72    | 492 | 01:48:55    | Russell King            | Male   |                               |
+| 73    | 524 | 01:49:08    | Alex Porter             | Male   | Poplar Running Club           |
+| 74    | 498 | 01:49:22    | Andrew Marriott         | Male   |                               |
+| 75    | 509 | 01:49:49    | Julian Morgan           | Male   |                               |
+| 76    | 520 | 01:50:21    | Laura Pepper            | Female |                               |
+| 77    | 404 | 01:50:32    | Muhammad Ahsan          | Male   |                               |
+| 78    | 541 | 01:50:35    | Debbie Sorby            | Female | Charnwood Athletics           |
+| 79    | 472 | 01:50:41    | Liz Hewitt              | Female | Charnwood Athletics           |
+| 80    | 494 | 01:51:42    | Wendy Lauberts          | Female | Long Eaton Running Club       |
+| 81    | 429 | 01:51:49    | Tracey Brown            | Female | Long Eaton Running Club       |
+| 82    | 534 | 01:51:52    | Zoe Sewter              | Female | Hermitage Harriers            |
+| 83    | 542 | 01:51:57    | Lauren Stacey           | Female |                               |
+| 84    | 489 | 01:52:10    | Samantha Keating        | Female | Desford Striders              |
+| 85    | 530 | 01:53:37    | David Robson            | Male   | Barrow Runners                |
+| 86    | 415 | 01:54:09    | David Baines            | Male   | Poplar Running Club           |
+| 87    | 546 | 01:54:15    | Samuel Tanner           | Male   |                               |
+| 88    | 414 | 01:54:17    | Andrew Authur           | Male   |                               |
+| 89    | 465 | 01:55:34    | Grzegorz Gola           | Male   |                               |
+| 90    | 529 | 01:56:00    | Colin Rimmer            | Male   | Birstall Running Club         |
+| 91    | 450 | 01:56:20    | Siobhan Creighton       | Female |                               |
+| 92    | 558 | 01:56:40    | David Watt              | Male   |                               |
+| 93    | 453 | 01:57:32    | Katrina Dent            | Female |                               |
+| 94    | 505 | 01:58:46    | Joey Millward           | Male   | JHPC                          |
+| 95    | 514 | 01:58:55    | Jenny Murphy            | Female | Desford Striders              |
+| 96    | 419 | 01:59:06    | Mary Barrowcliffe       | Female |                               |
+| 97    | 518 | 01:59:08    | Matthew Peat            | Male   | Huncote Harriers              |
+| 98    | 523 | 01:59:51    | Agnieszka Plociennik    | Female |                               |
+| 99    | 468 | 02:00:26    | Roger Griffiths         | Male   | Barrow Runners                |
+| 100   | 490 | 02:01:06    | Bethan Kench            | Female | Huncote Harriers              |
+| 101   | 448 | 02:01:56    | Molly Cooper            | Female | Huncote Harriers              |
+| 102   | 499 | 02:02:08    | Tom Marsland            | Male   | Shepshed Running Club         |
+| 103   | 463 | 02:02:24    | Christine Fowler        | Female | Desford Striders              |
+| 104   | 416 | 02:03:47    | Darren Baldwin          | Male   |                               |
+| 105   | 493 | 02:04:12    | Elizabeth Lakin         | Female | Long Eaton Running Club       |
+| 106   | 464 | 02:05:21    | Madeline Froment        | Female |                               |
+| 107   | 417 | 02:05:25    | Suzanne Baldwin         | Female |                               |
+| 108   | 568 | 02:07:41    | Samantha Winter         | Female |                               |
+| 109   | 445 | 02:09:00    | Emma Conway             | Female |                               |
+| 110   | 475 | 02:11:13    | Diane Hill              | Female | Long Eaton Running Club       |
+| 111   | 486 | 02:11:29    | Jayne Jones             | Female | Long Eaton Running Club       |
+| 112   | 508 | 02:13:05    | Debbie Moore            | Female | Hinckley Running Club         |
+| 113   | 454 | 02:13:10    | Elaine Doran            | Female | Hinckley Running Club         |
+| 114   | 538 | 02:15:05    | Catherine Smith         | Female | Wreake Runners                |
+| 115   | 543 | 02:16:28    | Jo Stanton              | Female |                               |
+| 116   | 480 | 02:17:40    | Sally Ikeringill        | Female |                               |
+| 117   | 566 | 02:17:55    | Anthony Wright-Mullaney | Male   | Long Eaton Running Club       |
+| 118   | 478 | 02:18:00    | Jane Hudson             | Female | Long Eaton Running Club       |
+| 119   | 481 | 02:19:53    | Timothy Illson          | Male   |                               |
+| 120   | 483 | 02:24:33    | Lorraine Jex            | Female | Wreake Runners                |
+| 121   | 559 | 02:24:36    | Marsha Weale            | Female | Wreake Runners                |
+| 122   | 573 | 02:24:39    | Katherine Smith         | Female | Shepshed Running Club         |
+| 123   | 479 | 02:24:44    | Jenny Hurst             | Female | Wreake Runners                |
+| 124   | 461 | 02:25:31    | Liam Foran              | Male   |                               |
+| 125   | 556 | 02:25:38    | Sarah Warner            | Female |                               |
+| 126   | 476 | 02:25:49    | Ceri Hingeley           | Female |                               |
+| 127   | 437 | 02:25:53    | Emma Burrows            | Female |                               |
+| 128   | 482 | 02:25:56    | Lucy Jadav              | Female |                               |
+| 129   | 436 | 0.101921296 | Geoff Burbidge          | Male   |                               |
+| 130   | 412 | 0.103773148 | Emma Andrew             | Female |                               |
+| 131   | 466 | 0.10744213  | Bea Gostynska           | Female | Speedhub Triathlon Club       |
+| 132   | 550 | 0.109212963 | Jonathan Taylor         | Male   |                               |
+| 133   | 495 | 0.144375    | Sarah Leach             | Female | Squirrels Running Group       |
 
 ## 10 Mile Challenge Junior Walkers Results
 
-| Place | Bib | Time     | Entrant       | Gender | Team |
-|-------|-----|----------|---------------|--------|------|
+| Place | Bib | Time     | Entrant        | Gender | Team |
+|-------|-----|----------|----------------|--------|------|
+| 1     | 129 | 03:04:17 | Isobelle Leach | Female |      |
 
 
 ## 10 Mile Challenge Senior Walkers Combined Results
 
-| Place | Bib | Time     | Entrant              | Gender | Team                   |
-|-------|-----|----------|----------------------|--------|------------------------|
-
-
+| Place | Bib | Time     | Entrant              | Gender | Team                     |
+|-------|-----|----------|----------------------|--------|--------------------------|
+| 1     | 128 | 02:33:28 | Colin Vesty          | Male   | Leicester Walking Club   |
+| 2     | 145 | 02:36:43 | Russell Stevens      | Male   | Didcot Runners           |
+| 3     | 147 | 02:39:12 | Lucy Clarke          | Female |                          |
+| 4     | 146 | 02:39:17 | Laura Clarke         | Female |                          |
+| 5     | 124 | 02:41:43 | Sue Summers          | Female | Northampton Road Runners |
+| 6     | 105 | 02:53:43 | Tony Hobbs           | Male   |                          |
+| 7     | 127 | 02:53:45 | Sian Thompson        | Female |                          |
+| 8     | 111 | 03:04:20 | Hannah Leach         | Female |                          |
+| 9     | 132 | 03:05:49 | Tracey Brookes       | Female | Shepshed Running Club    |
+| 10    | 137 | 03:05:58 | Jane Collingham      | Female |                          |
+| 11    | 112 | 03:08:34 | Emanuela Lo Faro     | Female |                          |
+| 12    | 142 | 03:09:33 | Amanda Frost         | Female |                          |
+| 13    | 120 | 03:14:14 | Loreto Sheils        | Female |                          |
+| 14    | 104 | 03:25:45 | Graham Henderson     | Male   |                          |
+| 15    | 119 | 03:34:31 | Alison Salisbury     | Female |                          |
+| 16    | 113 | 03:34:33 | Sarah Morley         | Female | Barrow Runners           |
+| 17    | 121 | 03:34:37 | Lucy Snape           | Female |                          |
+| 18    | 118 | 03:34:40 | Farah Robson         | Female | Barrow Runners           |
+| 19    | 103 | 03:34:42 | Louise Haworth       | Female |                          |
+| 20    | 101 | 03:34:49 | Joanne Griffiths     | Female | Barrow Runners           |
+| 21    | 519 | 03:38:06 | Ady Pendred          | Male   | Birmingham Swifts        |
+| 22    | 116 | 03:38:13 | Sarah Pendred        | Female |                          |
+| 23    | 107 | 03:47:42 | Lisa Hunter          | Female | Squirrels Running Group  |
+| 24    | 106 | 03:47:52 | Georgia Hunter       | Female |                          |
+| 25    | 110 | 03:49:00 | Sarah Laws           | Female |                          |
+| 26    | 109 | 03:49:06 | Matthew Laws         | Male   |                          |
+| 27    | 125 | 03:53:39 | Linda Tempest        | Female |                          |
+| 28    | 126 | 03:53:43 | Stephen Tempest      | Male   |                          |
+| 29    | 122 | 03:56:28 | Robin Spencer        | Male   | Squirrels Running Group  |
+| 30    | 140 | 03:56:41 | Lisa Emery           | Female |                          |
+| 31    | 143 | 03:56:49 | Trudie Gould         | Female |                          |
+| 32    | 115 | 04:03:38 | Jamie Norman         | Male   |                          |
+| 33    | 133 | 03:58:49 | Emma Jayne Broomhead | Female |                          |
+| 34    | 131 | 04:31:11 | Dawn Barsby          | Female | Squirrels Running Group  |
+| 35    | 144 | 04:31:11 | Carolyn Howard       | Female | Squirrels Running Group  |
+| 36    | 141 | 04:31:11 | Samantha Faulkner    | Female | Squirrels Running Group  |
+| 37    | 123 | 04:31:11 | Nicola Spriggs       | Female | Squirrels Running Group  |
+| 38    | 138 | 04:31:11 | Alison Davies        | Female | Squirrels Running Group  |
 
 
 # 2024
