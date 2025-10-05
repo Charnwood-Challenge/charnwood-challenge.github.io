@@ -967,6 +967,10 @@ for (var i = 0; i < tables.length; i++) {
                 headerFilterParams:{
                     valuesLookup:true,
                     clearable:true
+                },
+                formatter: function(cell) {
+                var value = cell.getValue();
+                return value ? value : ""; // or use "-" if you want a dash
                 }
             }
         ]
