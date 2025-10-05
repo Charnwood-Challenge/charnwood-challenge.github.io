@@ -1,0 +1,4 @@
+baseURL = 'https://charnwoodchallenge.me/'
+languageCode = 'en-us'
+title = 'Charnwood Challenge'
+theme = 'ananke'
