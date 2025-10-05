@@ -6,6 +6,29 @@ permalink: /results/
 
 You can filter the results by entrant (text search), gender, or team.
 
+
+# 2024
+
+## 10 Mile Challenge Runners Combined Results
+
+| Place | Bib | Time     | Entrant              | Gender | Team                            |
+|-------|-----|----------|----------------------|--------|---------------------------------|
+
+
+## 10 Mile Challenge Junior Walkers Results
+
+| Place | Bib | Time     | Entrant       | Gender | Team |
+|-------|-----|----------|---------------|--------|------|
+
+
+## 10 Mile Challenge Senior Walkers Combined Results
+
+| Place | Bib | Time     | Entrant              | Gender | Team                   |
+|-------|-----|----------|----------------------|--------|------------------------|
+
+
+
+
 # 2024
 
 ## 10 Mile Challenge Runners Combined Results
