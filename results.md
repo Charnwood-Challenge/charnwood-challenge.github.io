@@ -135,7 +135,7 @@ You can filter the results by entrant (text search), gender, or team.
 | 111   | 486 | 02:11:29    | Jayne Jones             | Female | Long Eaton Running Club       |
 | 112   | 508 | 02:13:05    | Debbie Moore            | Female | Hinckley Running Club         |
 | 113   | 454 | 02:13:10    | Elaine Doran            | Female | Hinckley Running Club         |
-| 114   | 538 | 02:15:05    | Catherine Smith         | Female | Wreake Runners                |
+| 114   | 538 | 02:15:05    | Katherine Smith         | Female | Wreake Runners                |
 | 115   | 543 | 02:16:28    | Jo Stanton              | Female |                               |
 | 116   | 480 | 02:17:40    | Sally Ikeringill        | Female |                               |
 | 117   | 566 | 02:17:55    | Anthony Wright-Mullaney | Male   | Long Eaton Running Club       |
@@ -143,7 +143,7 @@ You can filter the results by entrant (text search), gender, or team.
 | 119   | 481 | 02:19:53    | Timothy Illson          | Male   |                               |
 | 120   | 483 | 02:24:33    | Lorraine Jex            | Female | Wreake Runners                |
 | 121   | 559 | 02:24:36    | Marsha Weale            | Female | Wreake Runners                |
-| 122   | 573 | 02:24:39    | Katherine Smith         | Female | Shepshed Running Club         |
+| 122   | 573 | 02:24:39    | Catherine Smith         | Female | Shepshed Running Club         |
 | 123   | 479 | 02:24:44    | Jenny Hurst             | Female | Wreake Runners                |
 | 124   | 461 | 02:25:31    | Liam Foran              | Male   |                               |
 | 125   | 556 | 02:25:38    | Sarah Warner            | Female |                               |
