@@ -150,11 +150,11 @@ You can filter the results by entrant (text search), gender, or team.
 | 126   | 476 | 02:25:49    | Ceri Hingeley           | Female |                               |
 | 127   | 437 | 02:25:53    | Emma Burrows            | Female |                               |
 | 128   | 482 | 02:25:56    | Lucy Jadav              | Female |                               |
-| 129   | 436 | 0.101921296 | Geoff Burbidge          | Male   |                               |
-| 130   | 412 | 0.103773148 | Emma Andrew             | Female |                               |
-| 131   | 466 | 0.10744213  | Bea Gostynska           | Female | Speedhub Triathlon Club       |
-| 132   | 550 | 0.109212963 | Jonathan Taylor         | Male   |                               |
-| 133   | 495 | 0.144375    | Sarah Leach             | Female | Squirrels Running Group       |
+| 129   | 436 | 02:26:46    | Geoff Burbidge          | Male   |                               |
+| 130   | 412 | 02:29:26    | Emma Andrew             | Female |                               |
+| 131   | 466 | 02:34:43    | Bea Gostynska           | Female | Speedhub Triathlon Club       |
+| 132   | 550 | 02:37:16    | Jonathan Taylor         | Male   |                               |
+| 133   | 495 | 03:27:54    | Sarah Leach             | Female | Squirrels Running Group       |
 
 ## 10 Mile Challenge Junior Walkers Results
 
@@ -198,8 +198,8 @@ You can filter the results by entrant (text search), gender, or team.
 | 29    | 122 | 03:56:28 | Robin Spencer        | Male   | Squirrels Running Group  |
 | 30    | 140 | 03:56:41 | Lisa Emery           | Female |                          |
 | 31    | 143 | 03:56:49 | Trudie Gould         | Female |                          |
-| 32    | 115 | 04:03:38 | Jamie Norman         | Male   |                          |
-| 33    | 133 | 03:58:49 | Emma Jayne Broomhead | Female |                          |
+| 32    | 115 | 03:58:49 | Jamie Norman         | Male   |                          |
+| 33    | 133 | 04:03:38 | Emma Jayne Broomhead | Female |                          |
 | 34    | 131 | 04:31:11 | Dawn Barsby          | Female | Squirrels Running Group  |
 | 35    | 144 | 04:31:11 | Carolyn Howard       | Female | Squirrels Running Group  |
 | 36    | 141 | 04:31:11 | Samantha Faulkner    | Female | Squirrels Running Group  |
