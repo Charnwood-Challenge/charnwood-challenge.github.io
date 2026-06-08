@@ -4,9 +4,9 @@ title: Race Information
 permalink: /raceinformation/
 ---
 
-## Charnwood Challenge 2025
-Date of **Sunday 5th October 2025** has been confirmed for this year's event.
-Enter at [SI Entries](https://www.sientries.co.uk/list.php?event_id=15467)!
+## Charnwood Challenge 2026
+Date of **Sunday 4th October 2026** has been confirmed for this year's event.
+Enter at [SI Entries](https://www.sientries.co.uk/event/the-charnwood-challenge-2026-2026)!
 
 
 The Charnwood Challenge is an off-road event for runners and walkers and covers approximately 10 miles route through the Charnwood countryside, to see [route click here](https://charnwoodchallenge.me/raceinformation/#route)
