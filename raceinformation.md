@@ -77,19 +77,6 @@ Junior Challenge is £4 and entry on the day at the event headquarters.
 
 # On the Day
 
-## Event HQ
-
-As we are now in a position to start work on the replacement of the group’s ageing headquarters
-building, this year we are unable to use the scout hut or its grounds for the event. However, due to the
-kind support of the local landowner whose fields the race usually passes through in the final half mile,
-we will be using these as the location for the Event HQ.
-Registration, bag drop and refreshments etc. will therefore be situated outside in tents / event shelters
-so please be prepared in case the weather is forecast to be wet, cold and/or windy. Should the weather
-forecast for the day of the event be particularly bad then we may have a marquee available, but this
-isn&#39;t guaranteed.
-Any running clubs are welcome to bring club tents for their members to use for getting changed etc. and
-marshals will point you to the designated area for these, close to the race start and finish.
-
 ## Registration 
 
 Registration will open at 8:30 for collection of race numbers and any last-minute queries.
