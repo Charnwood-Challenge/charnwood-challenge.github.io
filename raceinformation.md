@@ -13,7 +13,7 @@ The Charnwood Challenge is an off-road event for runners and walkers and covers 
 
 
 ## Contents
-* [Event HQ](https://charnwoodchallenge.me/raceinformation/#Event-HQ)
+* [Event HQ](https://charnwoodchallenge.me/raceinformation/#event-hq)
 * [Route](https://charnwoodchallenge.me/raceinformation/#route)
 * [How to Enter](https://charnwoodchallenge.me/raceinformation/#how-to-enter)
 * [On the Day](https://charnwoodchallenge.me/raceinformation/#on-the-day)
