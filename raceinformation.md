@@ -45,7 +45,7 @@ Ideally we would like all participants to be safely back at the Event HQ by 1pm 
 
 The provisional route can be found here: 
 
-- [Charnwood Challenge](https://charnwoodchallenge.me/Leaflet/charnwoodchallenge/index.html)
+- [Charnwood Challenge](https://www.plotaroute.com/route/3440713?units=km)
 
 
 ### Dogs 
