@@ -34,7 +34,10 @@ We also kindly ask that you do not wear muddy footwear inside the building, and 
 
 ## Route
 
-The route will be predominantly as per previous years, starting and finishing at the Scout Group HQ building, and approximately 10 miles in length - details on the website.  However, this year the final mile or so will now pass through Jubilee Woods and the Outwoods, before crossing private farmland to pick up the usual track to the finish at the Scout Hut.  We hope that the views on the descent towards the finish make up for the slightly longer course (approx. 300m).
+The route will be predominantly as per previous years, starting and finishing at the Scout Group HQ building, and approximately 10 miles in length - details on the website.  However, this year the final mile or so will now pass through Jubilee Woods and the Outwoods, before crossing private farmland to pick up the usual track to the finish at the Scout Hut.  We hope that the views on the descent towards the finish make up for the slightly longer course (approx 300m).
+
+Due to a large fallen branch hanging from one of the trees on the Buck Hill section of the course, on safely grounds we have re-routed the race to avoid this. The course will instead exit the Permissive Path earlier and pass through the Outwoods. Please follow the directions of marshals on the short section along Woodhouse Lane / Breakback Road.
+
 Note that just after the exit from the Outwoods there will be a low fence to step over to enter the final fields.  This will be marked with hazard tape, but please slow down at this point and take care and follow the instructions of marshals.
 The route will have been well marked with arrow signs at turns, and red/white tape streamers to let you know you are on the right track, and marshals at key points.  As the majority of the course is on public rights of way, please stay on the path and be courteous and considerate to other users you may meet, especially where the path is narrow.
 Entrants are reminded of the hazards inherent in off-road/trail running and acknowledge that they are entering and running/walking this race at their own risk and are responsible for their own safety during the event. These hazards include rough and uneven ground, such as rocks, mud, tree roots, and wet grass, together with steep climbs and descents, and that some sections are rural and remote from road access.  Participants are also reminded of the Event Disclaimer which they will have accepted as part of the entry process.
@@ -45,7 +48,7 @@ Ideally we would like all participants to be safely back at the Event HQ by 1pm 
 
 The provisional route can be found here: 
 
-- [Charnwood Challenge](https://www.plotaroute.com/route/3440713?units=km)
+- [Charnwood Challenge](https://www.plotaroute.com/route/2590980?units=km)
 
 
 ### Dogs 
