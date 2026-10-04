@@ -10,23 +10,23 @@ Enter at [SI Entries](https://www.sientries.co.uk/event.php?event_id=8358)!
 
 [Final Details](https://charnwoodchallenge.me/Leaflet/ChCh2021_Final_Details.pdf)
 
-The Charnwood Challenge is an off-road event for runners and walkers and covers approximately 10 miles route through the Charnwood countryside. To see [route click here](https://charnwoodchallenge.me/raceinformation/#route)
+The Charnwood Challenge is an off-road event for runners and walkers and covers approximately 10 miles route through the Charnwood countryside. To see [route click here](#route)
 
 
 ## Contents
 
-* [Route](https://charnwoodchallenge.me/raceinformation/#route)
-* [How to Enter](https://charnwoodchallenge.me/raceinformation/#how-to-enter)
-* [On the Day](https://charnwoodchallenge.me/raceinformation/#on-the-day)
-  * [Registration](https://charnwoodchallenge.me/raceinformation/#registration)
-  * [Start Times](https://charnwoodchallenge.me/raceinformation/#start-times)
-  * [Water](https://charnwoodchallenge.me/raceinformation/#water) 
-  * [Refreshments](https://charnwoodchallenge.me/raceinformation/#refreshments)
-  * [Changing & toilets](https://charnwoodchallenge.me/raceinformation/#changing-and-toilets)
-  * [Bags](https://charnwoodchallenge.me/raceinformation/#bag-storage)
-  * [Prizes](https://charnwoodchallenge.me/raceinformation/#prizes)
-  * [1st Aid](https://charnwoodchallenge.me/raceinformation/#first-aid)
-  * [Late Entries](https://charnwoodchallenge.me/raceinformation/#late-entries)
+* [Route](#route)
+* [How to Enter](#how-to-enter)
+* [On the Day](#on-the-day)
+  * [Registration](#registration)
+  * [Start Times](#start-times)
+  * [Water](#water) 
+  * [Refreshments](#refreshments)
+  * [Changing & toilets](#changing-and-toilets)
+  * [Bags](#bag-storage)
+  * [Prizes](#prizes)
+  * [Parking](#parking)
+  * [1st Aid](#first-aid-and-emergencies)
 
 
 ## Route
