@@ -1,0 +1,43 @@
+{% comment %}
+  The leading finishers in each race, set by `leaders` in _data/races.yml.
+  Expects `results` to hold this year's results.
+{% endcomment %}
+<section class="results-leaders" aria-labelledby="leading-finishers">
+  <h2 id="leading-finishers">Leading finishers</h2>
+  <div class="results-leaders-grid">
+  {% for race in page.races %}
+    {% assign info = site.data.races[race] %}
+    {% assign rows = results[race] %}
+    {% if info.leaders and rows.size > 0 %}
+      {% if info.leaders_overall %}
+        {% assign groups = "overall" | split: "," %}
+      {% else %}
+        {% assign groups = "Female,Male" | split: "," %}
+      {% endif %}
+      {% for group in groups %}
+        {% if group == "overall" %}
+          {% assign leaders = rows %}
+          {% assign heading = info.title %}
+        {% else %}
+          {% assign leaders = rows | where: "gender", group %}
+          {% if group == "Female" %}{% assign heading = info.title | append: " · Women" %}{% else %}{% assign heading = info.title | append: " · Men" %}{% endif %}
+        {% endif %}
+        {% if leaders.size > 0 %}
+        <div class="results-leaders-card">
+          <h3>{{ heading }}</h3>
+          <ol>
+            {% for leader in leaders limit: info.leaders %}
+            <li>
+              <span class="results-leader-time">{{ leader.time }}</span>
+              <span class="results-leader-name">{{ leader.name | default: leader.bib | escape }}</span>
+              {% if leader.club %}<span class="results-leader-club">{{ leader.club | escape }}</span>{% endif %}
+            </li>
+            {% endfor %}
+          </ol>
+        </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  </div>
+</section>

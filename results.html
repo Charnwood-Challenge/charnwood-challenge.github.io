@@ -1,0 +1,46 @@
+---
+layout: page
+title: Results
+permalink: /results/
+---
+{% assign result_years = site.pages | where: "layout", "results-year" | sort: "year" | reverse %}
+
+{% include results-year-nav.html %}
+
+<form class="results-search" id="results-search" role="search" hidden
+      data-src="{{ site.baseurl }}/results/search.json" data-base="{{ site.baseurl }}">
+  <label for="results-search-input">Find your results</label>
+  <input type="search" id="results-search-input" placeholder="Type a name" autocomplete="off">
+  <p class="results-search-hint">See every year a runner or walker has taken part.</p>
+</form>
+<div class="results-search-results" id="results-search-results" aria-live="polite"></div>
+
+<div class="results-year-list">
+{% for year_page in result_years %}
+  {% assign year = year_page.year | append: "" %}
+  {% assign results = site.data.results[year] %}
+  <a class="results-year-card" href="{{ site.baseurl }}{{ year_page.url }}">
+    <span class="results-year-card-year">{{ year_page.year }}</span>
+    <span class="results-year-card-body">
+      {% if year_page.race_date %}<span class="results-year-card-date">{{ year_page.race_date | date: "%A %-d %B %Y" }}</span>{% endif %}
+      {% if year_page.races.size > 0 %}
+        <span class="results-year-card-counts">
+          {% for race in year_page.races %}{{ site.data.races[race].title }} {{ results[race].size }}{% unless forloop.last %} · {% endunless %}{% endfor %}
+        </span>
+        {% assign runners = results["runners"] %}
+        {% if runners %}
+          {% assign first_woman = runners | where: "gender", "Female" | first %}
+          {% assign first_man = runners | where: "gender", "Male" | first %}
+          <span class="results-year-card-winners">
+            First runners: {{ first_woman.name | escape }} {{ first_woman.time }} · {{ first_man.name | escape }} {{ first_man.time }}
+          </span>
+        {% endif %}
+      {% else %}
+        <span class="results-year-card-counts">{{ year_page.summary }}</span>
+      {% endif %}
+    </span>
+  </a>
+{% endfor %}
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/results.js" defer></script>

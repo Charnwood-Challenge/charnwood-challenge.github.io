@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /results/search.json
+---
+{%- assign result_years = site.pages | where: "layout", "results-year" | sort: "year" | reverse -%}
+{%- assign first = true -%}
+{"races":{{ site.data.races | jsonify }},"rows":[
+{%- for year_page in result_years -%}
+  {%- assign year = year_page.year | append: "" -%}
+  {%- for race in year_page.races -%}
+    {%- for row in site.data.results[year][race] -%}
+      {%- if row.name -%}
+        {%- unless first %},{% endunless -%}
+        {%- assign first = false -%}
+        {"y":{{ year_page.year }},"r":{{ race | jsonify }},"i":{{ forloop.index }},"p":{{ row.place | jsonify }},"n":{{ row.name | jsonify }},"c":{{ row.club | default: "" | jsonify }},"t":{{ row.time | jsonify }}}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endfor -%}
+]}

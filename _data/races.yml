@@ -1,0 +1,23 @@
+# The races results can be published for. Each year's results are in
+# _data/results/<year>/<race>.csv, where <race> is one of the keys below.
+#
+#   title:            heading shown above the race's results
+#   leaders:          how many leading finishers to show at the top of the page
+#   leaders_overall:  true to show the leading finishers overall rather than
+#                     the leading women and men separately
+
+runners:
+  title: Runners
+  leaders: 3
+
+walkers:
+  title: Walkers
+  leaders: 1
+
+junior-walkers:
+  title: Junior walkers
+  leaders: 1
+  leaders_overall: true
+
+fun-run:
+  title: Junior Challenge fun run

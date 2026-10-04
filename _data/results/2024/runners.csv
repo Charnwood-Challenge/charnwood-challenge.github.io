@@ -1,0 +1,135 @@
+place,bib,time,name,gender,club
+1,559,1:06:19,Ben Plummer,Male,Long Eaton Running Club
+2,543,1:09:26,Lewis Moses,Male,Barrow Runners
+3,544,1:12:00,Loïs Mougin,Male,
+4,592,1:12:20,Skandar Watson,Male,Charnwood Athletics
+5,553,1:14:57,Adrian Payne,Male,Badgers
+6,512,1:17:36,Martin Hunt,Male,Formula One Circuit Crew
+7,601,1:18:32,Alex Taylor,Male,Eton Manor AC
+8,501,1:22:33,Matt Hall,Male,
+9,462,1:22:56,Andy Brown,Male,Poplar Running Club
+10,564,1:23:45,Jonathan Russell,Male,
+11,591,1:24:18,Graham Watson,Male,Charnwood Athletics
+12,526,1:24:39,Isacc Walter,Male,Northampton Road Runners
+13,568,1:24:54,Ian Scarrott,Male,Long Eaton Running Club
+14,579,1:25:16,Philip Ainsley,Male,
+15,494,1:25:47,Amy Freeman-Hughes,Female,Poplar Running Club
+16,467,1:25:54,Martin Button,Male,Poplar Running Club
+17,505,1:26:06,Robert Hemingway,Male,Northampton Road Runners
+18,589,1:26:37,Mats Vermeeren,Male,Barrow Runners
+19,600,1:27:03,Luka Yates,Male,Barrow Runners
+20,557,1:27:20,Mark Platt,Male,Barrow Runners
+21,471,1:28:08,Michael Cheverton,Male,Barrow Runners
+22,536,1:28:20,Gareth Mcguire,Male,Coalville Triathlon Club
+23,561,1:29:25,Matthew Ridge,Male,
+24,584,1:29:32,Richard Thompson,Male,
+25,440,1:30:08,Antony Armitage,Male,Barrow Runners
+26,571,1:30:18,Bryan Shipley,Male,
+27,488,1:30:37,Alex Ferrari,Male,Holme Pierrepont Running Club
+28,520,1:31:00,Mark Kemp,Male,Hermitage Harriers
+29,463,1:32:13,George Burdett,Male,Barrow Runners
+30,587,1:32:44,Andrew Unitt,Male,Barrow Runners
+31,542,1:33:04,Amelia Monaghan,Female,Ivanhoe Runners
+32,468,1:33:24,Gareth Carroll,Male,
+33,469,1:33:34,Joe Cater,Male,
+34,558,1:33:38,Gary Playfoot,Male,
+35,476,1:34:08,Jim Cottom,Male,Badgers
+36,519,1:34:38,Richard Keep,Male,Barrow Runners
+37,455,1:34:50,Farhan Bismil,Male,Barrow Runners
+38,445,1:34:54,Robert Bardsley,Male,
+39,499,1:35:07,Matthew Green,Male,Badgers
+40,466,1:35:17,Michelle Butler,Female,Redhill Road Runners
+41,503,1:36:00,Christina Hawtin,Female,South Derbyshire Road Runners
+42,602,1:36:26,Chris Taylor,Male,
+43,573,1:36:32,Thomas Simpson,Male,
+44,531,1:37:12,Luke Martin,Male,Barnes Runners
+45,533,1:37:40,Pawel Mazur,Male,
+46,474,1:37:45,Malcolm Cook,Male,Barrow Runners
+47,578,1:38:18,Sarah Sutton,Female,Sinfin
+48,577,1:38:24,Ian Paramore,Male,Barrow Runners
+49,473,1:38:54,Lester Cockerill,Male,
+50,580,1:39:52,Robert Moody,Male,
+51,585,1:39:55,Jason Tomkins,Male,Huncote Harriers
+52,442,1:39:58,Nigel Atkins,Male,South Derbyshire Road Runners
+53,560,1:40:47,Penny Plummer,Female,Long Eaton Running Club
+54,527,1:41:09,Kevin Lomas,Male,Charnwood Athletics
+55,586,1:42:06,Chris Trzcinski,Male,Barrow Runners
+56,604,1:42:11,Duncan Taylor,Male,
+57,599,1:42:13,Mark Wittering,Male,Huncote Harriers
+58,481,1:42:28,Louise Dunn,Female,Barnes Runners
+59,567,1:44:39,Luke Saxton,Male,
+60,538,1:44:47,Christopher Merrick,Male,Squirrels Running Group
+61,555,1:44:54,Andrew Picknell,Male,Leicester Triathlon Club
+62,492,1:44:58,Hilary Foster,Female,Redhill Road Runners
+63,566,1:45:07,Mark Sadler,Male,Barrow Runners
+64,483,1:45:12,Grace Elton,Female,
+65,563,1:46:08,Kathy Robinson,Female,Barrow Runners
+66,444,1:46:30,Kasia Baldwin,Female,Poplar Running Club
+67,517,1:46:42,Jon Jorgensen,Male,
+68,537,1:46:51,Shirley Mcguire,Female,Coalville Triathlon Club
+69,465,1:47:45,Jamie Butler,Male,Birstall Running Club
+70,464,1:47:49,Sean Burleigh,Male,Holme Pierrepont Running Club
+71,452,1:49:50,Paul Bentley,Male,Barrow Runners
+72,506,1:50:21,Liz Hewitt,Female,Charnwood Athletics
+73,606,1:50:23,Debbie Sorby,Female,Charnwood Athletics
+74,498,1:51:18,Lorna Goodacre,Female,Barrow Runners
+75,453,1:52:03,Hannah Bibb,Female,Barrow Runners
+76,516,1:52:44,Phil Jordan,Male,Desford Striders
+77,607,1:52:51,Muhammad Ahsan,Male,
+78,547,1:53:40,Jenny Murphy,Female,Huncote Harriers
+79,596,1:54:15,Paula Whitworth,Female,Ivanhoe Runners
+80,504,1:54:35,Catherine Hedger,Female,Barrow Runners
+81,552,1:54:39,Tim Pattison,Male,Team Anstey Amblers and Runners
+82,507,1:55:03,Nigel Hillier,Male,Barrow Runners
+83,502,1:55:05,Malcolm Harris,Male,Barrow Runners
+84,441,1:55:08,John Ashby,Male,Barrow Runners
+85,545,1:55:15,Ronald Muhumuza,Male,Barrow Runners
+86,477,1:55:49,Jason Culleton,Male,Poplar Running Club
+87,497,1:56:12,Remi Gauvain,Male,Holme Pierrepont Running Club
+88,493,1:58:09,Christine Fowler,Female,Desford Striders
+89,486,1:58:26,Graeme Farmer,Male,Barrow Runners
+90,487,1:58:28,Michael Farmer,Male,
+91,511,1:58:31,Dean Humphreys,Male,Northampton Road Runners
+92,495,1:58:33,John Frostwick,Male,
+93,583,1:58:36,Roger Taylor,Male,Northampton Road Runners
+94,490,1:59:16,Michelle Fitzpatrick,Female,Squirrels Running Group
+95,530,1:59:26,Tom Marsland,Male,
+96,456,2:02:24,Ellen Bolton,Female,Ivanhoe Runners
+97,480,2:02:26,Peter Dines,Male,
+98,539,2:02:39,Anita Miller,Female,
+99,496,2:02:43,Sue Gardner,Female,Huncote Harriers
+100,508,2:02:43,Nick Hinde,Male,Charnwood Athletics
+101,522,2:02:47,Paul Leaney,Male,Barrow Runners
+102,576,2:03:27,Graham Henderson,Male,
+103,535,2:03:58,Gill McGarry,Female,
+104,454,2:04:40,Duncan Bisatt,Male,Northampton Road Runners
+105,588,2:05:58,Tricia Valentine,Female,
+106,546,2:06:00,Rod Munch,Male,
+107,570,2:06:43,Julie Shepherd,Female,
+108,597,2:08:39,Alison Wilby,Female,Poplar Running Club
+109,478,2:10:54,Ben Davies,Male,
+110,443,2:10:58,David Baines,Male,Poplar Running Club
+111,438,2:11:30,Jamie Anderson,Male,
+112,581,2:11:54,Warren Simms,Male,
+113,460,2:11:56,Joanne Broadhead,Female,Poplar Running Club
+114,605,2:12:20,Robin Barber,Male,
+115,598,2:12:56,Samantha Winter,Female,
+116,509,2:13:08,Claire Hubbard,Female,
+117,593,2:13:10,Nikki Welyczko,Female,Birstall Running Club
+118,510,2:17:03,Paul Hudson,Male,South Derbyshire Road Runners
+119,479,2:17:06,Ellie Dickson,Female,South Derbyshire Road Runners
+120,521,2:17:08,Paul King,Male,
+121,447,2:17:13,Janey Barrett,Female,Badgers
+122,569,2:17:13,Rachael Shelton,Female,Badgers
+123,594,2:17:13,Stephanie White,Female,Badgers
+124,513,2:19:18,Timothy Illson,Male,
+125,525,2:23:26,Sue Lewis,Female,Northampton Road Runners
+126,550,2:23:28,Caroline Owers,Female,Northampton Road Runners
+127,551,2:23:53,Kiran Patel,Male,
+128,448,2:24:37,Stuart Batchelor,Male,
+129,529,2:28:25,Nicky Marlow,Female,Squirrels Running Group
+130,582,2:36:43,Jonathan Taylor,Male,
+131,540,2:45:34,Jill Miller,Female,Badgers
+132,514,2:45:49,Sharon Jackson,Female,Badgers
+133,472,2:45:52,Megan Church,Female,Badgers
+134,590,2:57:53,Sarah Warner,Female,

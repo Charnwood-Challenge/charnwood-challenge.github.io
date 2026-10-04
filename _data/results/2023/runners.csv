@@ -1,0 +1,114 @@
+place,bib,time,name,gender,club
+1,392,1:08:17,Ben Plummer,Male,Long Eaton Running Club
+2,428,1:16:24,Skandar Watson,Male,Charnwood Athletics
+3,311,1:17:12,Geoff Beetham,Male,Barrow Runners
+4,360,1:17:50,Lindsay Harper,Female,Poplar Running Club
+5,320,1:20:52,Andy Brown,Male,Poplar Running Club
+6,324,1:21:09,Nick Bulloch,Male,Barnes Runners
+7,427,1:23:33,Graham Watson,Male,Charnwood Athletics
+8,363,1:23:44,David Hill,Male,Badgers
+9,401,1:23:49,Matt Ryder,Male,
+10,343,1:24:35,Alasdair Fletcher,Male,
+11,430,1:24:41,Neil Winkless,Male,Lonely Goat RC
+12,399,1:25:48,Matthew Rollins,Male,
+13,301,1:26:19,Philip Ainsley,Male,
+14,376,1:28:28,Aaron Maclaughlin,Male,
+15,303,1:29:19,Gary Ashwell,Male,West End Runners
+16,322,1:30:04,Alice Bucklow,Female,
+17,411,1:31:43,Nigel Smith,Male,Poplar Running Club
+18,310,1:31:57,Elizabeth Bedwell,Female,Northern Navigators
+19,309,1:31:59,Dai Bedwell,Male,Derwent Valley Orienteering Club
+20,353,1:32:39,John Golding,Male,Charnwood Athletics
+21,337,1:32:43,Hollie Elliott,Female,Charnwood Athletics
+22,426,1:32:46,James Watkins,Male,Charnwood Athletics
+23,386,1:34:22,James Ogilvie,Male,Ivanhoe Runners
+24,377,1:35:48,Pawel Mazur,Male,
+25,433,1:35:54,Chris Wright,Male,
+26,335,1:36:20,Dilip Dattani,Male,Charnwood Athletics
+27,318,1:36:25,Andrew Bond,Male,
+28,374,1:37:17,Kevin Lomas,Male,Charnwood Athletics
+29,394,1:37:34,Dean Randle,Male,
+30,412,1:38:02,Barrie Smithson,Male,Holme Pierrepont Running Club
+31,390,1:38:29,Deborah Phelps,Female,Holme Pierrepont Running Club
+32,346,1:38:31,Ryan Francis,Male,Desford Striders
+33,306,1:40:36,Kasia Baldwin,Female,Poplar Running Club
+34,383,1:40:44,Amelia Monaghan,Female,Ivanhoe Runners
+35,432,1:41:37,Mark Wittering,Male,Huncote Harriers
+36,384,1:42:15,Robert Mooney,Male,
+37,333,1:42:21,Scott Cramp,Male,
+38,403,1:42:49,Luke Saxton,Male,
+39,367,1:43:59,Andrew Ladwiniec,Male,
+40,368,1:44:18,Nicola Ladwiniec,Female,
+41,418,1:44:26,David Swift-Rollinson,Male,Barrow Runners
+42,351,1:44:32,Darran Furness,Male,Ilkeston Running Club
+43,365,1:44:34,Su Justice,Female,Formula One Circuit Crew
+44,421,1:44:37,Vicki Thurston,Female,Formula One Circuit Crew
+45,395,1:45:06,Damian Ratajczak,Male,
+46,315,1:45:09,Hannah Bibb,Female,Barrow Runners
+47,373,1:45:27,Anton Letten,Male,West End Runners
+48,302,1:45:31,Lee Anderson,Male,
+49,425,1:45:56,Janet Wanstall,Female,
+50,339,1:46:16,Alex Ferrari,Male,Holme Pierrepont Running Club
+51,416,1:46:26,Kelly Stuart,Female,Birstall Running Club
+52,382,1:48:08,Catherine Millet,Female,Formula One Circuit Crew
+53,407,1:48:39,Thomas Simpson,Male,
+54,434,1:49:15,Lisa Wright,Female,South Derbyshire Road Runners
+55,369,1:50:15,Elizabeth Lakin,Female,Long Eaton Running Club
+56,362,1:50:40,Liz Hewitt,Female,Charnwood Athletics
+57,413,1:50:43,Debbie Sorby,Female,Charnwood Athletics
+58,321,1:50:46,Geoff Brown,Male,Ivanhoe Runners
+59,338,1:51:33,Stephen Elliott,Male,Birstall Running Club
+60,396,1:51:52,Catherine Reilly,Female,Formula One Circuit Crew
+61,331,1:52:01,Michael Cooke,Male,Stilton Striders
+62,314,1:52:12,Anna Bertram,Female,Charnwood Athletics
+63,375,1:54:04,Madeleine Lomas,Female,Charnwood Athletics
+64,379,1:54:09,Adele McGreevy,Female,Birstall Running Club
+65,391,1:54:12,William Pither,Male,Nuneaton Harriers
+66,342,1:54:16,Mark Flanaghan,Male,Birstall Running Club
+67,326,1:55:07,April Clough,Female,Shepshed Running Club
+68,327,1:55:10,Simon Clough,Male,Desford Striders
+69,340,1:55:11,Harriet Fielder,Female,
+70,410,1:55:35,Marvin Smith,Male,Birstall Running Club
+71,312,1:56:08,Dan Beishon,Male,
+72,359,1:57:01,Joanna Harper,Female,Poplar Running Club
+73,381,1:59:23,Katy Melton,Female,Race Hub
+74,429,2:01:23,Phillipa Weston,Female,Badgers
+75,361,2:02:41,John Heathcote,Male,
+76,305,2:02:46,David Baines,Male,
+77,357,2:02:55,Lisa Hall,Female,Ivanhoe Runners
+78,358,2:03:31,Simon Hall,Male,Ivanhoe Runners
+79,329,2:05:35,Rachel Congreve,Female,West End Runners
+80,420,2:06:54,Sian Thornton,Female,Mansfield Harriers
+81,366,2:08:51,Teresa Kay,Female,Barrow Runners
+82,431,2:09:00,Samantha Winter,Female,
+83,334,2:09:02,Siobhan Creighton,Female,
+84,348,2:09:49,Madeline Froment,Female,Sutton in Ashfield Harriers & AC
+85,349,2:10:15,Amanda Frost,Female,
+86,350,2:10:18,Will Frost,Male,
+87,380,2:10:56,Joseph Melbourne,Male,
+88,325,2:10:58,Hannah Cleaver,Female,
+89,406,2:11:11,Julie Shepherd,Female,Huncote Harriers
+90,345,2:11:28,Irene Forty,Female,Huncote Harriers
+91,319,2:11:33,Joanne Broadhead,Female,Poplar Running Club
+92,400,2:13:37,Iain Ross,Male,Vegan Runners
+93,378,2:13:41,Padraig Mc Kenna,Male,Vegan Runners
+94,424,2:14:11,Laura Walker,Female,
+95,341,2:14:14,Damien Fitzpatrick,Male,
+96,385,2:14:24,Mark Morris,Male,
+97,402,2:14:54,Stephanie Sanderson Ainsley,Female,
+98,355,2:17:11,Gareth Haines,Male,
+99,354,2:17:18,Jordan Greenfield,Male,
+100,323,2:17:27,Georgia Bulled,Female,
+101,415,2:18:13,Diane Stewart,Female,Redhill Road Runners
+102,397,2:19:01,Louise Robinson,Female,Long Eaton Running Club
+103,372,2:20:40,Marie Leeland,Female,
+104,371,2:20:43,Val Lawson,Female,Peel Road Runners
+105,352,2:23:46,Charlotte Gilks,Female,
+106,364,2:24:10,Jenny Hudspith,Female,Wreake Runners
+107,344,2:29:13,Peter Forman,Male,
+108,419,2:31:53,Jonathan Taylor,Male,
+109,356,2:34:21,Charlotte Hall,Female,Desford Striders
+110,388,2:34:22,Karen Parkin,Female,Desford Striders
+111,423,2:40:55,Suki Vernon,Female,
+112,409,2:41:00,Mark Smith,Male,Robin Hood Runners
+113,414,2:41:02,Darren Stell,Male,Team Anstey Amblers and Runners

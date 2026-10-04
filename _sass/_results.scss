@@ -1,0 +1,362 @@
+//
+// RESULTS
+//
+
+$resultsBorder: #ddd;
+$resultsStripe: #f7f7f7;
+$resultsHighlight: #fff6d5;
+
+// Keep the hidden attribute working on elements given a display below
+.results-filter[hidden],
+.results-search[hidden],
+.results-race[hidden],
+.results-table tr[hidden] {
+  display: none;
+}
+
+// Year switcher. It's a <nav>, so it undoes the site header's nav styles.
+.results-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  float: none;
+  margin: 0 0 20px;
+  font-family: inherit;
+  font-size: 15px;
+
+  a {
+    margin: 0;
+    padding: 4px 12px;
+    border: 1px solid $resultsBorder;
+    border-radius: 999px;
+    color: $darkGray;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: center;
+
+    &:hover {
+      border-color: $blue;
+      color: $blue;
+    }
+
+    &[aria-current="page"] {
+      background: $blue;
+      border-color: $blue;
+      color: $white;
+    }
+  }
+}
+
+.results-date {
+  margin-top: -5px;
+  color: $gray;
+}
+
+// Leading finishers
+.results-leaders h2 {
+  margin-top: 25px;
+}
+
+.results-leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+.results-leaders-card {
+  padding: 12px 14px;
+  border: 1px solid $resultsBorder;
+  border-radius: 6px;
+
+  h3 {
+    margin: 0 0 6px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: $gray;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  ol {
+    margin: 0;
+    padding-left: 22px;
+    font-size: 16px;
+  }
+
+  li {
+    margin: 4px 0;
+  }
+}
+
+.results-leader-name {
+  font-weight: bold;
+}
+
+.results-leader-time {
+  float: right;
+  margin-left: 8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.results-leader-club {
+  display: block;
+  font-size: 14px;
+  color: $gray;
+}
+
+// Filters on a year's page
+.results-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin: 30px 0 0;
+  padding: 12px 14px;
+  background: $resultsStripe;
+  border-radius: 6px;
+  font-size: 15px;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex: 1 1 160px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: inherit;
+    background: $white;
+  }
+}
+
+// A race's table
+.results-race h2 {
+  margin-bottom: 0;
+}
+
+.results-count {
+  margin: 0 0 10px;
+  color: $gray;
+  font-size: 15px;
+}
+
+.results-scroll {
+  overflow-x: auto;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+
+  th,
+  td {
+    padding: 6px 8px;
+    border-bottom: 1px solid $resultsBorder;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  th {
+    font-weight: bold;
+    border-bottom-width: 2px;
+  }
+
+  tbody tr:nth-child(even) {
+    background: $resultsStripe;
+  }
+
+  // A row linked to from the name search
+  tbody tr:target {
+    background: $resultsHighlight;
+    outline: 2px solid darken($resultsHighlight, 30%);
+  }
+
+  abbr {
+    text-decoration: none;
+  }
+
+  .results-num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  td.results-club,
+  .results-name-club {
+    white-space: normal;
+    color: $gray;
+  }
+
+  // On phones the club moves under the name to leave room for the time
+  .results-name-club {
+    display: none;
+  }
+
+  td.results-gap,
+  td.results-bib {
+    color: $gray;
+  }
+
+  @include mobile {
+    font-size: 14px;
+
+    th,
+    td {
+      padding: 6px 5px;
+    }
+
+    .results-name {
+      white-space: normal;
+    }
+
+    .results-name-club {
+      display: block;
+      font-size: 13px;
+    }
+
+    .results-club,
+    .results-gap,
+    .results-bib {
+      display: none;
+    }
+  }
+}
+
+// /results/: name search
+.results-search {
+  margin: 0 0 10px;
+
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font: inherit;
+  }
+}
+
+.results-search-hint {
+  margin: 6px 0 0;
+  color: $gray;
+  font-size: 15px;
+}
+
+.results-person {
+  margin: 12px 0;
+  padding: 12px 14px;
+  border: 1px solid $resultsBorder;
+  border-radius: 6px;
+
+  h3 {
+    display: inline;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  ul {
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+  }
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 12px;
+    padding: 3px 0;
+    border-top: 1px solid $lightGray;
+  }
+
+  a {
+    font-weight: bold;
+    min-width: 3em;
+  }
+}
+
+.results-person-count {
+  display: inline;
+  margin-left: 8px;
+  color: $gray;
+  font-size: 15px;
+}
+
+.results-person-race {
+  min-width: 8em;
+}
+
+.results-person-place {
+  min-width: 3em;
+}
+
+.results-person-time {
+  font-variant-numeric: tabular-nums;
+}
+
+.results-person-club {
+  color: $gray;
+}
+
+.results-search-empty,
+.results-search-more {
+  color: $gray;
+  font-size: 15px;
+}
+
+// /results/: list of years
+.results-year-list {
+  margin-top: 25px;
+}
+
+.results-year-card {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  padding: 14px 4px;
+  border-top: 1px solid $resultsBorder;
+  color: $darkGray;
+
+  &:hover {
+    background: $resultsStripe;
+  }
+
+  &:hover .results-year-card-year {
+    color: $blue;
+  }
+}
+
+.results-year-card-year {
+  font-size: 26px;
+  font-weight: bold;
+  color: $darkerGray;
+  min-width: 2.6em;
+}
+
+.results-year-card-body > span {
+  display: block;
+}
+
+.results-year-card-date {
+  font-weight: bold;
+}
+
+.results-year-card-counts,
+.results-year-card-winners {
+  font-size: 15px;
+  color: $gray;
+}
