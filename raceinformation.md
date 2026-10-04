@@ -9,23 +9,23 @@ Date of **Sunday 4th October 2026** has been confirmed for this year's event.
 Enter at [SI Entries](https://www.sientries.co.uk/event/the-charnwood-challenge-2026-2026)!
 
 
-The Charnwood Challenge is an off-road event for runners and walkers and covers approximately 10 miles route through the Charnwood countryside, to see [route click here](https://charnwoodchallenge.me/raceinformation/#route)
+The Charnwood Challenge is an off-road event for runners and walkers and covers an approximately 10 mile route through the Charnwood countryside. To see the route [click here](#route).
 
 
 ## Contents
-* [Event HQ](https://charnwoodchallenge.me/raceinformation/#event-hq)
-* [Route](https://charnwoodchallenge.me/raceinformation/#route)
-* [How to Enter](https://charnwoodchallenge.me/raceinformation/#how-to-enter)
-* [On the Day](https://charnwoodchallenge.me/raceinformation/#on-the-day)
-  * [Registration](https://charnwoodchallenge.me/raceinformation/#registration)
-  * [Start Times](https://charnwoodchallenge.me/raceinformation/#start-times)
-  * [Water](https://charnwoodchallenge.me/raceinformation/#water) 
-  * [Refreshments](https://charnwoodchallenge.me/raceinformation/#refreshments)
-  * [Changing & toilets](https://charnwoodchallenge.me/raceinformation/#changing-and-toilets)
-  * [Bags](https://charnwoodchallenge.me/raceinformation/#bag-storage)
-  * [Prizes](https://charnwoodchallenge.me/raceinformation/#prizes)
-  * [1st Aid](https://charnwoodchallenge.me/raceinformation/#first-aid)
-  * [Late Entries](https://charnwoodchallenge.me/raceinformation/#late-entries)
+* [Event HQ](#event-hq)
+* [Route](#route)
+* [How to Enter](#how-to-enter)
+* [On the Day](#on-the-day)
+  * [Registration](#registration)
+  * [Start Times](#start-times)
+  * [Water](#water) 
+  * [Refreshments](#refreshments)
+  * [Changing & toilets](#changing-and-toilets)
+  * [Bags](#bag-storage)
+  * [Prizes](#prizes)
+  * [Parking](#parking)
+  * [1st Aid](#first-aid-and-emergencies)
 
 ## Event HQ
 The Event HQ will be located at: 1st Nanpantan Scout Group HQ, Nanpantan Road, Loughborough, LE11 3YE.
@@ -36,7 +36,7 @@ We also kindly ask that you do not wear muddy footwear inside the building, and 
 
 The route will be predominantly as per previous years, starting and finishing at the Scout Group HQ building, and approximately 10 miles in length - details on the website.  However, this year the final mile or so will now pass through Jubilee Woods and the Outwoods, before crossing private farmland to pick up the usual track to the finish at the Scout Hut.  We hope that the views on the descent towards the finish make up for the slightly longer course (approx 300m).
 
-Due to a large fallen branch hanging from one of the trees on the Buck Hill section of the course, on safely grounds we have re-routed the race to avoid this. The course will instead exit the Permissive Path earlier and pass through the Outwoods. Please follow the directions of marshals on the short section along Woodhouse Lane / Breakback Road.
+Due to a large fallen branch hanging from one of the trees on the Buck Hill section of the course, on safety grounds we have re-routed the race to avoid this. The course will instead exit the Permissive Path earlier and pass through the Outwoods. Please follow the directions of marshals on the short section along Woodhouse Lane / Breakback Road.
 
 Note that just after the exit from the Outwoods there will be a low fence to step over to enter the final fields.  This will be marked with hazard tape, but please slow down at this point and take care and follow the instructions of marshals.
 The route will have been well marked with arrow signs at turns, and red/white tape streamers to let you know you are on the right track, and marshals at key points.  As the majority of the course is on public rights of way, please stay on the path and be courteous and considerate to other users you may meet, especially where the path is narrow.
@@ -53,7 +53,7 @@ The provisional route can be found here:
 
 ### Dogs 
 
-SAs the route passes through several areas where livestock may be present, and private land, unfortunately dogs are not permitted to accompany runners or walkers competing in the event.
+As the route passes through several areas where livestock may be present, and private land, unfortunately dogs are not permitted to accompany runners or walkers competing in the event.
 Please also note that only assistance dogs are permitted within the Scout HQ building.  We ask that any dogs are on leads within the Scout HQ grounds, and please do not allow them to foul within this area as it is frequently used by the scout group for their outdoor activities.
 
 
@@ -80,7 +80,7 @@ Please pin your number to your front and make sure it can be clearly seen by the
 All walkers will be asked to provide the number of a mobile phone which they will be carrying and which could be used to contact them during the event, if required.
 Any Junior Walkers (under 16) must remain with their parent/guardian for the duration of the event.
 Note that there may be photographs taken by the marshals or members of the scout group during the event which may be used for future publicity of the event.  If you do not wish your photograph to be used for this purpose then please make this known at Registration so your race number can be noted.
-For any friends or family who would like to participate in the event, please note that should there still be places available then we will be accept entries on the day, which can be administered through the SI Entries page.
+For any friends or family who would like to participate in the event, please note that should there still be places available then we will accept entries on the day, which can be administered through the SI Entries page.
 
 
 ## Start Times 

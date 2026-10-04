@@ -1002,7 +1002,7 @@ Race cancelled
 
 ### Run
 
-| ﻿Place 	| Bib 	| Time     	| Entrant             	| Gender 	| Course      	|
+| Place 	| Bib 	| Time     	| Entrant             	| Gender 	| Course      	|
 |-------	|-----	|----------	|--------------------	|--------	|-------------	|
 | 1     	| 119 	| 01:12:51 	| Tim Hartley        	| Male   	| 10 Mile Run 	|
 | 2     	| 69  	| 01:14:58 	| Simon Mayes        	| Male   	| 10 Mile Run 	|
@@ -1155,48 +1155,53 @@ Not published, please contact for details.
 
 
 
-<link href="https://unpkg.com/tabulator-tables@6.3.0/dist/css/tabulator.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.0/dist/js/tabulator.min.js"></script>
+<link href="https://unpkg.com/tabulator-tables@6.3.0/dist/css/tabulator.min.css" rel="stylesheet" integrity="sha384-p6hY5g6BjbrEVoCLwj4gZMkotMaHdQrPkd4S0vRpErDxL9/kvjyaUIq/S9RAPQfL" crossorigin="anonymous">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.0/dist/js/tabulator.min.js" integrity="sha384-gb+8dgIcSEcX2zwyEPEEKZiwD8km3OTz47IVU3CXdP/pYz4fRAdb9pJdlHW8VvM0" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
+// Tables from different years have different columns, so build each table's
+// columns from its own headers and add filters to the ones that have them
+function resultsColumn(title) {
+    var column = { title: title };
+
+    switch (title.trim()) {
+        case "Entrant":
+            column.headerFilter = "input";
+            break;
+        case "Gender":
+        case "M/F":
+        case "Course":
+        case "age cat":
+            column.headerFilter = "list";
+            column.headerFilterParams = { valuesLookup: true, clearable: true };
+            break;
+        case "Team":
+            column.headerFilter = "list";
+            column.headerFilterParams = { valuesLookup: true, clearable: true };
+            column.formatter = function(cell) {
+                var value = cell.getValue();
+                return value ? value : ""; // or use "-" if you want a dash
+            };
+            break;
+    }
+
+    return column;
+}
+
 var tables = document.querySelectorAll("table");
 
 for (var i = 0; i < tables.length; i++) {
+    var headers = tables[i].querySelectorAll("th");
+    var columns = [];
+
+    for (var j = 0; j < headers.length; j++) {
+        columns.push(resultsColumn(headers[j].textContent));
+    }
+
     new Tabulator(tables[i], {
         height: 400,
         layout: "fitDataStretch",
-        columns: [
-            { title: "Place", field: "Place" },
-            { title: "Bib", field: "Bib" },
-            { title: "Time", field: "Time" },
-            {
-                title: "Entrant",
-                field: "Entrant",
-                headerFilter: "input"
-            },
-            {
-                title: "Gender",
-                field: "Gender",
-                headerFilter:"list",
-                headerFilterParams:{
-                    valuesLookup:true,
-                    clearable:true
-                }
-            },
-            {
-                title: "Team",
-                field: "Team",
-                headerFilter:"list",
-                headerFilterParams:{
-                    valuesLookup:true,
-                    clearable:true
-                },
-                formatter: function(cell) {
-                var value = cell.getValue();
-                return value ? value : ""; // or use "-" if you want a dash
-                }
-            }
-        ]
+        columns: columns
     });
 }
 </script>

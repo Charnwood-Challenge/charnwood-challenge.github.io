@@ -6,14 +6,14 @@ permalink: /raceinformation2020/
 
 ## Charnwood Challenge 2020
 
-The Charnwood Challenge is an off-road event for runners and walkers. The main event covers approximately 10 miles route through the Charnwood countryside, with a shorter (1 mile), but no less scenic, Junior Challenge event, open to all ages and abilities. To see [route click here](https://charnwoodchallenge.me/raceinformation/#route)
+The Charnwood Challenge is an off-road event for runners and walkers. The main event covers approximately 10 miles route through the Charnwood countryside, with a shorter (1 mile), but no less scenic, Junior Challenge event, open to all ages and abilities. To see [route click here](#route)
 
 Provisional date of **Sunday 20th September** for this year's event - we should be in a position to confirm this soon, with more details to follow when entries open.
 
 ## Junior Challenge
 
 
-The ‘Charnwood Junior Challenge’ will be a 1 mile (1.6 km) fun run/walk on an off-road route for children and anyone else who fancies a shorter challenge, and starts at 10.30am.  This a challenging cross country course (see [Route](https://charnwoodchallenge.me/raceinformation/#route)), so don't expect to keep your feet dry! 
+The ‘Charnwood Junior Challenge’ will be a 1 mile (1.6 km) fun run/walk on an off-road route for children and anyone else who fancies a shorter challenge, and starts at 10.30am.  This a challenging cross country course (see [Route](#route)), so don't expect to keep your feet dry! 
 
 Please note that all children under 8 must be accompanied by a person 18 or over.  
 
@@ -23,18 +23,18 @@ All finishers will receive a special Charnwood Challenge medal, and there will a
 
 ## Contents
 
-* [Route](https://charnwoodchallenge.me/raceinformation/#route)
-* [How to Enter](https://charnwoodchallenge.me/raceinformation/#how-to-enter)
-* [On the Day](https://charnwoodchallenge.me/raceinformation/#on-the-day)
-  * [Registration](https://charnwoodchallenge.me/raceinformation/#registration)
-  * [Start Times](https://charnwoodchallenge.me/raceinformation/#start-times)
-  * [Water](https://charnwoodchallenge.me/raceinformation/#water) 
-  * [Refreshments](https://charnwoodchallenge.me/raceinformation/#refreshments)
-  * [Changing & toilets](https://charnwoodchallenge.me/raceinformation/#changing-and-toilets)
-  * [Bags](https://charnwoodchallenge.me/raceinformation/#bag-storage)
-  * [Prizes](https://charnwoodchallenge.me/raceinformation/#prizes)
-  * [1st Aid](https://charnwoodchallenge.me/raceinformation/#first-aid)
-  * [Late Entries](https://charnwoodchallenge.me/raceinformation/#late-entries)
+* [Route](#route)
+* [How to Enter](#how-to-enter)
+* [On the Day](#on-the-day)
+  * [Registration](#registration)
+  * [Start Times](#start-times)
+  * [Water](#water) 
+  * [Refreshments](#refreshments)
+  * [Changing & toilets](#changing-and-toilets)
+  * [Bags](#bag-storage)
+  * [Prizes](#prizes)
+  * [Parking](#parking)
+  * [1st Aid](#first-aid-and-emergencies)
 
 
 ## Route
