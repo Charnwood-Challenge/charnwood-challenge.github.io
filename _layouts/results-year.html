@@ -3,15 +3,21 @@ layout: page
 ---
 {% comment %}
   One year's results. The page's front matter lists the races to show, and each
-  race's results come from _data/results/<year>/<race>.csv.
+  race's results come from _data/results/<year>/<race>.csv. If the front
+  matter has `photos` (a folder such as /images/gallery/2019), the page ends
+  with a gallery of them.
 {% endcomment %}
 {% assign year = page.year | append: "" %}
 {% assign results = site.data.results[year] %}
 
 {% include results-year-nav.html %}
 
-{% if page.race_date %}
-<p class="results-date">{{ page.race_date | date: "%A %-d %B %Y" }}</p>
+{% if page.race_date or page.photos %}
+<p class="results-date">
+  {% if page.race_date %}{{ page.race_date | date: "%A %-d %B %Y" }}{% endif %}
+  {% if page.race_date and page.photos %} · {% endif %}
+  {% if page.photos %}<a href="#photos">Photos</a>{% endif %}
+</p>
 {% endif %}
 
 {{ content }}
@@ -56,4 +62,12 @@ layout: page
   {% endfor %}
 
   <script src="{{ site.baseurl }}/assets/js/results.js" defer></script>
+{% endif %}
+
+{% if page.photos %}
+<section class="results-photos" id="photos">
+  <h2>Photos</h2>
+  {% assign photo_caption = page.year | append: " race" %}
+  {% include image-gallery.html folder=page.photos caption=photo_caption %}
+</section>
 {% endif %}

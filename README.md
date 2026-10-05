@@ -117,3 +117,35 @@ To run the check yourself: `python3 scripts/check_results.py`
 The year's page shows the leading finishers, a table for each race, and filters by name, gender and club. Position within gender and the gap to the winner are worked out when the site is built. The name search on the [results page](https://charnwoodchallenge.me/results/) picks up the new year automatically.
 
 To add a new kind of race, add it to `_data/races.yml`.
+
+## Adding photos
+
+Phone photos are too big to put on the site as they are. `scripts/prepare_photos.py` makes web-sized copies: at most 1400 pixels on the longest side, turned the right way up, and with the camera's hidden details (time, phone model, sometimes location) removed.
+
+It needs Pillow. On Ubuntu or WSL, run `sudo apt install python3-pil`. On a Mac, run `pip install pillow`.
+
+Check the group's photo policy before publishing photos where children can be identified.
+
+**A gallery on a year's results page**
+
+1. Make the photos and their thumbnails:
+
+   ```bash
+   python3 scripts/prepare_photos.py images/gallery/2027 ~/Pictures/race/*.jpg
+   ```
+
+   On WSL, your Windows folders are under `/mnt/c/`, for example `/mnt/c/Users/<your name>/Pictures/race/*.jpg`.
+
+2. Add `photos: /images/gallery/2027` to the front matter of `results/2027.md`. The photos appear at the bottom of that year's page, with a Photos link at the top.
+
+**A photo for a post**
+
+```bash
+python3 scripts/prepare_photos.py images ~/Pictures/start.jpg
+```
+
+Then put `![Runners at the start](/images/start.jpg)` in the post.
+
+## Link previews
+
+When a page is shared on Facebook, X, WhatsApp and so on, the preview uses the page's `description` and `image` from its front matter. Pages without them use the site's description and `images/social.jpg`. To give a post or a year's results page its own picture, add `image: /images/<photo>.jpg` to its front matter.

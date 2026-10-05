@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
     {% include meta.html %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
+  {% comment %}Which menu item to mark as the current section{% endcomment %}
+  {% assign section = page.url | split: "/" | slice: 1 | first %}
+  {% if page.layout == "post" %}{% assign section = "news" %}{% endif %}
+
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }} logo" /></a>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+    <header class="site-header">
+      <div class="container site-header-inner">
+        <a class="site-brand" href="{{ site.baseurl }}/">
+          <img class="site-logo" src="{{ site.baseurl }}{{ site.avatar }}" alt="" width="56" height="56">
+          <span class="site-brand-text">
+            <span class="site-name">{{ site.name }}</span>
+            <span class="site-description">{{ site.description }}</span>
+          </span>
+        </a>
 
-          <nav>
-            <a href="{{ site.baseurl }}/raceinformation">Race Information</a>
-            <a href="{{ site.baseurl }}/results">Results</a>
-            <a href="{{ site.baseurl }}/news/">News</a>
-          </nav>
-        </header>
+        <nav class="site-nav" aria-label="Main">
+          <a href="{{ site.baseurl }}/raceinformation/"{% if section == "raceinformation" %} aria-current="page"{% endif %}>Race information</a>
+          <a href="{{ site.baseurl }}/results/"{% if section == "results" %} aria-current="page"{% endif %}>Results</a>
+          <a href="{{ site.baseurl }}/news/"{% if section == "news" %} aria-current="page"{% endif %}>News</a>
+        </nav>
       </div>
-    </div>
+    </header>
 
-    <div id="main" role="main" class="container">
+    <main id="main" class="container">
       {{ content }}
-    </div>
+    </main>
 
-    <div class="wrapper-footer">
+    <footer class="site-footer">
       <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}<br>
-          
-          © Copyright Nanpantan Scouts {{ site.time | date: "%Y" }}. All Rights Reserved. Charity number: 521761
-        </footer>
+        <div class="site-footer-top">
+          <nav class="site-footer-nav" aria-label="Footer">
+            <a href="{{ site.baseurl }}/raceinformation/">Race information</a>
+            <a href="{{ site.baseurl }}/results/">Results</a>
+            <a href="{{ site.baseurl }}/news/">News</a>
+            {% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>{% endif %}
+          </nav>
+          <div class="site-footer-social">
+            {% include svg-icons.html %}
+          </div>
+        </div>
+        <p class="site-footer-legal">© Copyright Nanpantan Scouts {{ site.time | date: "%Y" }}. All Rights Reserved. Charity number: 521761</p>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

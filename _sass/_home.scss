@@ -43,7 +43,7 @@
   margin-top: -20px;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #1b2a1f;
+  background-color: $forest;
   background-size: cover;
   background-position: center 40%;
   color: $white;
@@ -86,6 +86,8 @@
 .home-hero-title {
   margin: 4px 0 10px;
   color: $white;
+  font-weight: 700;
+  letter-spacing: -0.5px;
   font-size: 34px;
   line-height: 1.2;
 
@@ -143,7 +145,7 @@
 
 .event-fact {
   padding: 14px 16px;
-  border: 1px solid #ddd;
+  border: 1px solid $line;
   border-top: 4px solid $green;
   border-radius: 6px;
   font-size: 16px;
@@ -152,7 +154,7 @@
     margin: 0 0 6px;
     font-size: 15px;
     line-height: 1.4;
-    color: $gray;
+    color: $inkSoft;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
@@ -181,6 +183,7 @@
 
 // Latest news
 .home-news {
+  margin-bottom: 14px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 12px;
@@ -188,7 +191,7 @@
 
 .home-news-item {
   padding: 14px 16px;
-  border: 1px solid #ddd;
+  border: 1px solid $line;
   border-radius: 6px;
   font-size: 16px;
 
@@ -204,13 +207,13 @@
 }
 
 .home-news-date {
-  color: $gray;
+  color: $inkSoft;
   font-size: 14px;
 }
 
 .home-about {
   padding: 20px 24px;
-  background: $lightGray;
+  background: $tint;
   border-radius: 8px;
 }
 
