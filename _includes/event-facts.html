@@ -1,0 +1,43 @@
+{% comment %}
+  The key facts about this year's event, from _data/event.yml.
+    include.show_date  true to include the race date
+{% endcomment %}
+{% assign event = site.data.event %}
+<div class="event-facts{% if include.show_date %} event-facts-with-date{% endif %}">
+  {% if include.show_date %}
+  <div class="event-fact">
+    <h3>Date</h3>
+    {% if event.date %}
+    <p class="event-fact-main">{{ event.date | date: "%A %-d %B %Y" }}</p>
+    {% else %}
+    <p class="event-fact-main">To be announced</p>
+    {% endif %}
+    {% if event.entry_url %}<p><a href="{{ event.entry_url }}">Enter at SI Entries</a></p>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="event-fact">
+    <h3>Start times</h3>
+    <ul class="event-start-times">
+      {% for start in event.start_times %}
+      <li><span class="event-time">{{ start.time }}</span> {{ start.race }}</li>
+      {% endfor %}
+    </ul>
+    {% if event.registration_opens %}<p>Registration opens at {{ event.registration_opens }}</p>{% endif %}
+  </div>
+
+  <div class="event-fact">
+    <h3>Event HQ</h3>
+    <p>{{ event.hq.name }}<br>{{ event.hq.address }}</p>
+    <p>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query={{ event.hq.address | url_encode }}">Map</a>
+      · <a href="{{ site.baseurl }}/raceinformation/#parking">Parking</a>
+    </p>
+  </div>
+
+  <div class="event-fact">
+    <h3>The route</h3>
+    <p>Off-road, {{ event.distance }}, through the Charnwood countryside.</p>
+    <p><a href="{{ site.baseurl }}/raceinformation/#route">Route details</a></p>
+  </div>
+</div>
