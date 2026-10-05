@@ -2,6 +2,7 @@
 layout: page
 title: Race Information
 permalink: /raceinformation/
+description: Date, start times, route, entry fees and everything else you need to know about the Charnwood Challenge.
 ---
 
 ## Charnwood Challenge {{ site.data.event.year }}
@@ -57,7 +58,7 @@ As the route passes through several areas where livestock may be present, and pr
 Please also note that only assistance dogs are permitted within the Scout HQ building.  We ask that any dogs are on leads within the Scout HQ grounds, and please do not allow them to foul within this area as it is frequently used by the scout group for their outdoor activities.
 
 
-# How to Enter
+## How to Enter
 
 {% if site.data.event.entry_url %}Enter online at [SI Entries]({{ site.data.event.entry_url }}).{% else %}Entries aren't open yet.{% endif %}
 
@@ -68,9 +69,9 @@ Please also note that only assistance dogs are permitted within the Scout HQ bui
 {% endfor %}
 
 
-# On the Day
+## On the Day
 
-## Registration 
+### Registration
 
 Registration will be open from {{ site.data.event.registration_opens }} for collection of race numbers and any last-minute queries.
 Please pin your number to your front and make sure it can be clearly seen by the marshals at all times during the event, so these can be recorded for safety purposes.
@@ -80,7 +81,7 @@ Note that there may be photographs taken by the marshals or members of the scout
 For any friends or family who would like to participate in the event, please note that should there still be places available then we will accept entries on the day, which can be administered through the SI Entries page.
 
 
-## Start Times 
+### Start Times
 
 The start times for the event are as follows:
 
@@ -91,29 +92,29 @@ The start times for the event are as follows:
 Walkers and runners will both have a mass start, with a short briefing 5 minutes beforehand.
  
   
-## Water 
+### Water
 
 There will be a water station just over halfway round the course (at approximately 5.5 miles / 9 km) on the approach to the Broombriggs carpark.  If you think you may need more than will be provided at this stop then we suggest you carry a bottle or similar for the event.
 Water will also be available at the finish. This may be using disposable cups, so if you are able to bring your own reusable water bottle then we will happily refill it for you. 
 
 
 
-## Refreshments 
+### Refreshments
 
 Refreshments will be available to purchase at the Event HQ, including tea, coffee, soft drinks, cakes, breakfast cobs, and a selection of other snacks.
 
 
-## Changing and Toilets 
+### Changing and Toilets
 
 Toilets will be available at the Event HQ, however no separate changing facilities are available.  To avoid long queues and the risk of delaying the race start, please make sure you allow enough time.  Note that the accessible toilet is also available to use, but please allow anyone with specific needs to use it as a priority.
 During the event itself, please note that there are public toilets at several points close to the route (i.e. top or bottom of Beacon Hill, Woodhouse Eaves village), although a short detour may be needed – please ask a marshal for directions if necessary and advise them of your race number and that you need to deviate from the event route so we can track your location.
 
 
-## Bag Storage 
+### Bag Storage
 
 Secure bag storage will be situated at the Event HQ, manned by members of the scout group.  To help avoid delays it would be appreciated if competitors could drop their bag off at least 15 minutes before the race start time.  You will need to show your race number to pick up your bag after the race. 
 
-## Prizes 
+### Prizes
 
 Prizes will be awarded in categories to include:
 Runners – 1st man, 1st lady, 2nd man; 2nd lady, 3rd man, 3rd lady
@@ -122,7 +123,7 @@ Walkers – 1st man, 1st lady, 1st junior
 
 All participants will also receive a unique Charnwood Challenge {{ site.data.event.year }} Scout badge for taking part, as specially designed by one of the young people in the group.
 
-## Parking 
+### Parking
 
 Please car share if driving to the event, where possible.
 There will be no parking for competitors immediately outside the Scout HQ building on either side of the road for safety reasons, and to ensure access is clear for race organisers and first aiders etc.  As Nanpantan Road can be busy the recommended option is to park at the nearby Nanpantan Sports Ground off Watermead Lane (LE11 3TN). However, please be aware that this is a public carpark shared with several sports groups, so please park considerately.
@@ -130,7 +131,7 @@ If you do park on local roads or side streets, then please make sure not to crea
 For those competitors with the energy to cycle to/from the event there are facilities at the Event HQ for cycles to be parked and secured, and although there will be members of the event team around during the day this will be at the owner’s risk.
 
 
-## First Aid and Emergencies 
+### First Aid and Emergencies
 For any first aid or other emergencies experienced while at the Event HQ, please inform a marshal. First aid cover on the course and at the Event HQ will be provided by experienced first aiders.
 As sections of the route are rural, rough underfoot, and remote from the road, in the event of an accident or a runner becoming unwell please stop to provide assistance if necessary, and ensure that a marshal located at one of the road crossings is informed of the situation as soon as possible.
 In the unfortunate situation that you are unable to finish the event and need to retire, please make your way to the nearest road crossing, and inform the marshal located there, who will be able to provide assistance.  If you do retire from the race, it is important that you report to the finish before you leave the event.

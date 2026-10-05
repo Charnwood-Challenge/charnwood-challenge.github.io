@@ -1,27 +1,28 @@
-
 //
 // VARIABLES
 //
 
-// Colors
-$blue: #4183C4;
-$green: #10D048;     // the logo's green: use with dark text
-$darkGreen: #0B7A2E; // dark enough for white text, or as text on white
-
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+// Colours. Every text colour here passes the WCAG AA contrast check (4.5:1)
+// on the backgrounds it's used on.
+$green: #10D048;      // the logo's green: use with dark text, or on dark backgrounds
+$darkGreen: #0B7A2E;  // links and green text on white; white text on it
+$ink: #1c2420;        // main text
+$inkSoft: #5a635d;    // secondary text, e.g. dates and labels
+$line: #dde3df;       // borders
+$inputBorder: #7d877f; // form fields: 3:1 contrast, so they're easy to see
+$tint: #f2f6f3;       // pale panels and table stripes
+$forest: #13261a;     // footer
 $white: #fff;
+$highlight: #fff6d5;  // a row linked to from the results search
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+// Fonts: each device's own interface font
+$font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
-// Mobile breakpoints
+// Layout
+$maxWidth: 760px;
+$radius: 8px;
+
+// Phones
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;

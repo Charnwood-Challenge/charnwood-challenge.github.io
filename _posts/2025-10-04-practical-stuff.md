@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2025 the Practical Stuff
+image: /images/2025-practical.jpg
 ---
 
 ![Runners](/images/2025-practical.jpg)

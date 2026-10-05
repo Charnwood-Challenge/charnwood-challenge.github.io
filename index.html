@@ -1,5 +1,6 @@
 ---
 layout: default
+description: An off-road run and walk of about 10 miles through the Charnwood countryside, plus a Junior Challenge fun run. Organised by 1st Nanpantan Scout Group.
 ---
 {% comment %}
   The homepage. The event details come from _data/event.yml.
@@ -21,11 +22,11 @@ layout: default
 
 <section class="home-hero" style="background-image: url('{{ site.baseurl }}/images/post1.jpg');"{% if event_day %} data-event-date="{{ event_day }}"{% endif %}>
   <div class="home-hero-inner">
-    <p class="home-hero-eyebrow">Charnwood Challenge {{ event.year }}</p>
+    <h1 class="home-hero-eyebrow">Charnwood Challenge {{ event.year }}</h1>
 
     {% if event_day %}
     <div data-phase="upcoming"{% if race_over %} hidden{% endif %}>
-      <h2 class="home-hero-title">{{ event_date }}</h2>
+      <p class="home-hero-title">{{ event_date }}</p>
       <p class="home-hero-countdown" data-countdown hidden></p>
       <p class="home-hero-text">An off-road run and walk of {{ event.distance }} through the Charnwood countryside, plus a Junior Challenge fun run.</p>
       <p class="home-hero-actions">
@@ -35,7 +36,7 @@ layout: default
     </div>
 
     <div data-phase="past"{% unless race_over %} hidden{% endunless %}>
-      <h2 class="home-hero-title">Thank you for taking part</h2>
+      <p class="home-hero-title">Thank you for taking part</p>
       <p class="home-hero-text">The {{ event.year }} Challenge took place on {{ event_date }}. Thank you to everyone who took part and helped on the day. Next year's date will be announced here and on Facebook.</p>
       <p class="home-hero-actions">
         {% if site.data.results[year] %}<a class="button button-primary" href="{{ site.baseurl }}/results/{{ year }}/">{{ event.year }} results</a>{% endif %}
@@ -43,7 +44,7 @@ layout: default
       </p>
     </div>
     {% else %}
-    <h2 class="home-hero-title">Date to be announced</h2>
+    <p class="home-hero-title">Date to be announced</p>
     <p class="home-hero-text">The {{ event.year }} date will be announced here and on Facebook soon.</p>
     <p class="home-hero-actions">
       {% if latest_results %}<a class="button button-primary" href="{{ site.baseurl }}{{ latest_results.url }}">{{ latest_results.year }} results</a>{% endif %}

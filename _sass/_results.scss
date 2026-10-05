@@ -2,10 +2,6 @@
 // RESULTS
 //
 
-$resultsBorder: #ddd;
-$resultsStripe: #f7f7f7;
-$resultsHighlight: #fff6d5;
-
 // Keep the hidden attribute working on elements given a display below
 .results-filter[hidden],
 .results-search[hidden],
@@ -27,21 +23,21 @@ $resultsHighlight: #fff6d5;
   a {
     margin: 0;
     padding: 4px 12px;
-    border: 1px solid $resultsBorder;
+    border: 1px solid $line;
     border-radius: 999px;
-    color: $darkGray;
+    color: $ink;
     font-weight: normal;
     letter-spacing: normal;
     text-align: center;
 
     &:hover {
-      border-color: $blue;
-      color: $blue;
+      border-color: $darkGreen;
+      color: $darkGreen;
     }
 
     &[aria-current="page"] {
-      background: $blue;
-      border-color: $blue;
+      background: $darkGreen;
+      border-color: $darkGreen;
       color: $white;
     }
   }
@@ -49,7 +45,7 @@ $resultsHighlight: #fff6d5;
 
 .results-date {
   margin-top: -5px;
-  color: $gray;
+  color: $inkSoft;
 }
 
 // Leading finishers
@@ -65,14 +61,14 @@ $resultsHighlight: #fff6d5;
 
 .results-leaders-card {
   padding: 12px 14px;
-  border: 1px solid $resultsBorder;
+  border: 1px solid $line;
   border-radius: 6px;
 
   h3 {
     margin: 0 0 6px;
     font-size: 15px;
     line-height: 1.4;
-    color: $gray;
+    color: $inkSoft;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
@@ -101,7 +97,7 @@ $resultsHighlight: #fff6d5;
 .results-leader-club {
   display: block;
   font-size: 14px;
-  color: $gray;
+  color: $inkSoft;
 }
 
 // Filters on a year's page
@@ -111,7 +107,7 @@ $resultsHighlight: #fff6d5;
   gap: 10px 16px;
   margin: 30px 0 0;
   padding: 12px 14px;
-  background: $resultsStripe;
+  background: $tint;
   border-radius: 6px;
   font-size: 15px;
 
@@ -130,7 +126,7 @@ $resultsHighlight: #fff6d5;
   select {
     width: 100%;
     padding: 6px 8px;
-    border: 1px solid #ccc;
+    border: 1px solid $inputBorder;
     border-radius: 4px;
     font: inherit;
     background: $white;
@@ -144,7 +140,7 @@ $resultsHighlight: #fff6d5;
 
 .results-count {
   margin: 0 0 10px;
-  color: $gray;
+  color: $inkSoft;
   font-size: 15px;
 }
 
@@ -160,7 +156,7 @@ $resultsHighlight: #fff6d5;
   th,
   td {
     padding: 6px 8px;
-    border-bottom: 1px solid $resultsBorder;
+    border-bottom: 1px solid $line;
     text-align: left;
     white-space: nowrap;
   }
@@ -171,13 +167,13 @@ $resultsHighlight: #fff6d5;
   }
 
   tbody tr:nth-child(even) {
-    background: $resultsStripe;
+    background: $tint;
   }
 
   // A row linked to from the name search
   tbody tr:target {
-    background: $resultsHighlight;
-    outline: 2px solid darken($resultsHighlight, 30%);
+    background: $highlight;
+    outline: 2px solid darken($highlight, 30%);
   }
 
   abbr {
@@ -192,7 +188,7 @@ $resultsHighlight: #fff6d5;
   td.results-club,
   .results-name-club {
     white-space: normal;
-    color: $gray;
+    color: $inkSoft;
   }
 
   // On phones the club moves under the name to leave room for the time
@@ -202,7 +198,7 @@ $resultsHighlight: #fff6d5;
 
   td.results-gap,
   td.results-bib {
-    color: $gray;
+    color: $inkSoft;
   }
 
   @include mobile {
@@ -244,7 +240,7 @@ $resultsHighlight: #fff6d5;
   input {
     width: 100%;
     padding: 10px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid $inputBorder;
     border-radius: 6px;
     font: inherit;
   }
@@ -252,14 +248,14 @@ $resultsHighlight: #fff6d5;
 
 .results-search-hint {
   margin: 6px 0 0;
-  color: $gray;
+  color: $inkSoft;
   font-size: 15px;
 }
 
 .results-person {
   margin: 12px 0;
   padding: 12px 14px;
-  border: 1px solid $resultsBorder;
+  border: 1px solid $line;
   border-radius: 6px;
 
   h3 {
@@ -280,7 +276,7 @@ $resultsHighlight: #fff6d5;
     flex-wrap: wrap;
     gap: 0 12px;
     padding: 3px 0;
-    border-top: 1px solid $lightGray;
+    border-top: 1px solid $line;
   }
 
   a {
@@ -292,7 +288,7 @@ $resultsHighlight: #fff6d5;
 .results-person-count {
   display: inline;
   margin-left: 8px;
-  color: $gray;
+  color: $inkSoft;
   font-size: 15px;
 }
 
@@ -309,12 +305,12 @@ $resultsHighlight: #fff6d5;
 }
 
 .results-person-club {
-  color: $gray;
+  color: $inkSoft;
 }
 
 .results-search-empty,
 .results-search-more {
-  color: $gray;
+  color: $inkSoft;
   font-size: 15px;
 }
 
@@ -328,22 +324,22 @@ $resultsHighlight: #fff6d5;
   gap: 16px;
   align-items: baseline;
   padding: 14px 4px;
-  border-top: 1px solid $resultsBorder;
-  color: $darkGray;
+  border-top: 1px solid $line;
+  color: $ink;
 
   &:hover {
-    background: $resultsStripe;
+    background: $tint;
   }
 
   &:hover .results-year-card-year {
-    color: $blue;
+    color: $darkGreen;
   }
 }
 
 .results-year-card-year {
   font-size: 26px;
   font-weight: bold;
-  color: $darkerGray;
+  color: $ink;
   min-width: 2.6em;
 }
 
@@ -358,5 +354,5 @@ $resultsHighlight: #fff6d5;
 .results-year-card-counts,
 .results-year-card-winners {
   font-size: 15px;
-  color: $gray;
+  color: $inkSoft;
 }
