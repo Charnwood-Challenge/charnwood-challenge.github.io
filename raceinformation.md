@@ -4,9 +4,9 @@ title: Race Information
 permalink: /raceinformation/
 ---
 
-## Charnwood Challenge 2026
-Date of **Sunday 4th October 2026** has been confirmed for this year's event.
-Enter at [SI Entries](https://www.sientries.co.uk/event/the-charnwood-challenge-2026-2026)!
+## Charnwood Challenge {{ site.data.event.year }}
+
+{% include event-facts.html show_date=true %}
 
 
 The Charnwood Challenge is an off-road event for runners and walkers and covers an approximately 10 mile route through the Charnwood countryside. To see the route [click here](#route).
@@ -28,7 +28,7 @@ The Charnwood Challenge is an off-road event for runners and walkers and covers 
   * [1st Aid](#first-aid-and-emergencies)
 
 ## Event HQ
-The Event HQ will be located at: 1st Nanpantan Scout Group HQ, Nanpantan Road, Loughborough, LE11 3YE.
+The Event HQ will be located at: {{ site.data.event.hq.name }}, {{ site.data.event.hq.address }}.
 Race registration, refreshments, bag drop, toilets, etc. will all be inside the main building.  However, in order to accommodate everyone attending we will still need to make use of the outside area, so please come prepared for the weather if it is wet / cold / windy on the day.
 We also kindly ask that you do not wear muddy footwear inside the building, and leave them outside where possible.
 
@@ -59,23 +59,20 @@ Please also note that only assistance dogs are permitted within the Scout HQ bui
 
 # How to Enter
 
-Main Adult event entry fee:
-Prior to 31/08/2026 is £16 (affiliated) for runners and walkers, or £18 (unaffiliated).
+{% if site.data.event.entry_url %}Enter online at [SI Entries]({{ site.data.event.entry_url }}).{% else %}Entries aren't open yet.{% endif %}
 
-Between  31/08/2026-28/09/2026 is £18 (affiliated) for runners and walkers, or £20 (unaffiliated).
-
-From     28/9/2026 is £20 (affiliated) for runners and walkers, or £22 (unaffiliated).
-
-Junior Walkers £6 affiliated and unaffiliated
-
-Junior Challenge is £4 and entry on the day at the event headquarters.
+| Entry | Fee |
+| --- | --- |
+{% for fee in site.data.event.fees -%}
+| {{ fee.entry }} | {{ fee.price }} |
+{% endfor %}
 
 
 # On the Day
 
 ## Registration 
 
-Registration will be open from 8:30 for collection of race numbers and any last-minute queries.
+Registration will be open from {{ site.data.event.registration_opens }} for collection of race numbers and any last-minute queries.
 Please pin your number to your front and make sure it can be clearly seen by the marshals at all times during the event, so these can be recorded for safety purposes.
 All walkers will be asked to provide the number of a mobile phone which they will be carrying and which could be used to contact them during the event, if required.
 Any Junior Walkers (under 16) must remain with their parent/guardian for the duration of the event.
@@ -85,14 +82,13 @@ For any friends or family who would like to participate in the event, please not
 
 ## Start Times 
 
-The start times for the event are as follows: 
+The start times for the event are as follows:
 
- 9:00  Walkers 
+{% for start in site.data.event.start_times -%}
+- **{{ start.time }}** {{ start.race }}
+{% endfor %}
 
- 10:00 Runners
- Both will be a mass start, with a short briefing 5 minutes beforehand.
- 
- 10:15 Fun Run
+Walkers and runners will both have a mass start, with a short briefing 5 minutes beforehand.
  
   
 ## Water 
@@ -124,7 +120,7 @@ Runners – 1st man, 1st lady, 2nd man; 2nd lady, 3rd man, 3rd lady
 Walkers – 1st man, 1st lady, 1st junior
 (Please be aware that any walkers observed running, or admitting to (!), will be reclassified.)
 
-All participants will also receive a unique Charnwood Challenge 2026 Scout badge for taking part, as specially designed by one of the young people in the group.
+All participants will also receive a unique Charnwood Challenge {{ site.data.event.year }} Scout badge for taking part, as specially designed by one of the young people in the group.
 
 ## Parking 
 

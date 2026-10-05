@@ -79,6 +79,20 @@ GitHub Pages updates its version of Jekyll from time to time. Run `bundle update
 - **`Address already in use`.** The server is already running in another terminal. Stop that one, or add `--port 4001` and open <http://localhost:4001>.
 - **`bundle: command not found`.** Run `source ~/.bashrc`, or open a new Ubuntu terminal, so step 3's settings take effect.
 
+## Updating the event for a new year
+
+This year's details are in `_data/event.yml`. The homepage and the race information page both read from it, so the date, entry link, start times and fees only need changing there.
+
+1. Set `year` to the new year. Leave `date` blank until the date is confirmed, and the homepage says the date will be announced soon.
+2. When the date is confirmed, set `date` (as `YYYY-MM-DD`). The homepage then shows the date and a countdown.
+3. When entries open, set `entry_url` to the SI Entries page. The homepage shows an **Enter now** button until race day.
+4. Check `start_times`, `registration_opens` and `fees`, and change anything that's different this year.
+5. Update the rest of `raceinformation.md` as needed, for example any changes to the route.
+
+You don't need to change anything after race day. The homepage switches to a thank-you message with a link to that year's results, once they're published.
+
+To keep a copy of a year's race information page before rewriting it, copy `raceinformation.md` to a new file such as `raceinformation2026.md` and change its `permalink`. Then replace each `{{ site.data.event... }}` tag and the `{% include event-facts.html ... %}` line with the actual text. Otherwise the copy will show the current year's details.
+
 ## Publishing a year's results
 
 Each race's results are a CSV file in `_data/results/<year>/`:

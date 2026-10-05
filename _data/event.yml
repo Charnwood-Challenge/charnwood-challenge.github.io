@@ -1,0 +1,42 @@
+# This year's Charnwood Challenge. The homepage and the race information page
+# both read from this file, so a new year's date, entry link, start times and
+# fees only need changing here.
+
+year: 2026
+
+# The race date as YYYY-MM-DD. Leave it blank until the date is confirmed:
+# the homepage then says the date will be announced soon.
+date: 2026-10-04
+
+# The SI Entries page. Leave it blank until entries open. The homepage only
+# shows the Enter button when this is set and the race hasn't happened yet.
+entry_url: https://www.sientries.co.uk/event/the-charnwood-challenge-2026-2026
+
+distance: approximately 10 miles
+
+hq:
+  name: 1st Nanpantan Scout Group HQ
+  address: Nanpantan Road, Loughborough, LE11 3YE
+
+registration_opens: "8:30"
+
+start_times:
+  - time: "9:00"
+    race: Walkers
+  - time: "10:00"
+    race: Runners
+  - time: "10:15"
+    race: Junior Challenge fun run
+
+# Shown as a table on the race information page, in this order
+fees:
+  - entry: Runners and walkers, prior to 31/08/2026
+    price: £16 affiliated, £18 unaffiliated
+  - entry: Runners and walkers, between 31/08/2026 and 28/09/2026
+    price: £18 affiliated, £20 unaffiliated
+  - entry: Runners and walkers, from 28/9/2026
+    price: £20 affiliated, £22 unaffiliated
+  - entry: Junior walkers
+    price: £6 affiliated and unaffiliated
+  - entry: Junior Challenge fun run
+    price: £4, entry on the day at the event HQ
