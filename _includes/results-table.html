@@ -1,0 +1,92 @@
+{% comment %}
+  One race's results table.
+    include.race  the race key from _data/races.yml
+    include.rows  the rows from _data/results/<year>/<race>.csv
+  Columns only appear if the data has them. Position within gender (e.g. F3)
+  and the gap to the winner are worked out here, so they aren't in the data.
+{% endcomment %}
+{% assign info = site.data.races[include.race] %}
+{% assign rows = include.rows %}
+{% assign names = rows | map: "name" | compact %}
+{% assign race_clubs = rows | map: "club" | compact %}
+{% assign genders = rows | map: "gender" | compact %}
+{% assign categories = rows | map: "category" | compact %}
+{% assign bibs = rows | map: "bib" | compact %}
+
+{% assign winner_time = rows.first.time | split: ":" %}
+{% if winner_time.size == 3 %}
+  {% assign winner = winner_time[0] | times: 3600 %}
+  {% assign minutes = winner_time[1] | times: 60 %}
+  {% assign winner = winner | plus: minutes | plus: winner_time[2] %}
+{% else %}
+  {% assign winner = winner_time[0] | times: 60 | plus: winner_time[1] %}
+{% endif %}
+
+<section class="results-race" id="{{ include.race }}">
+  <h2>{{ info.title | default: include.race }}</h2>
+  <p class="results-count" data-total="{{ rows.size }}">{{ rows.size }} {% if rows.size == 1 %}finisher{% else %}finishers{% endif %}</p>
+  <div class="results-scroll">
+    <table class="results-table">
+      <thead>
+        <tr>
+          <th scope="col" class="results-num">Pos</th>
+          {% if names.size > 0 %}<th scope="col">Name</th>{% endif %}
+          {% if race_clubs.size > 0 %}<th scope="col" class="results-club">Club</th>{% endif %}
+          {% if genders.size > 0 %}<th scope="col" class="results-num"><abbr title="Position among women (F) or men (M)">Gender</abbr></th>{% endif %}
+          {% if categories.size > 0 %}<th scope="col">Category</th>{% endif %}
+          <th scope="col" class="results-num">Time</th>
+          <th scope="col" class="results-num results-gap">Gap</th>
+          {% if bibs.size > 0 %}<th scope="col" class="results-num results-bib">Bib</th>{% endif %}
+        </tr>
+      </thead>
+      <tbody>
+        {% assign women = 0 %}
+        {% assign men = 0 %}
+        {% for row in rows %}
+          {% if row.gender == "Female" %}
+            {% assign women = women | plus: 1 %}
+            {% assign gender_position = "F" | append: women %}
+          {% elsif row.gender == "Male" %}
+            {% assign men = men | plus: 1 %}
+            {% assign gender_position = "M" | append: men %}
+          {% else %}
+            {% assign gender_position = "" %}
+          {% endif %}
+
+          {% assign time = row.time | split: ":" %}
+          {% if time.size == 3 %}
+            {% assign seconds = time[0] | times: 3600 %}
+            {% assign minutes = time[1] | times: 60 %}
+            {% assign seconds = seconds | plus: minutes | plus: time[2] %}
+          {% else %}
+            {% assign seconds = time[0] | times: 60 | plus: time[1] %}
+          {% endif %}
+          {% assign gap = seconds | minus: winner %}
+          {% assign gap_hours = gap | divided_by: 3600 %}
+          {% assign gap_minutes = gap | modulo: 3600 | divided_by: 60 %}
+          {% assign gap_seconds = gap | modulo: 60 | prepend: "0" | slice: -2, 2 %}
+          {% if gap <= 0 %}
+            {% assign gap_text = "" %}
+          {% elsif gap_hours > 0 %}
+            {% assign gap_minutes = gap_minutes | prepend: "0" | slice: -2, 2 %}
+            {% assign gap_text = "+" | append: gap_hours | append: ":" | append: gap_minutes | append: ":" | append: gap_seconds %}
+          {% else %}
+            {% assign gap_text = "+" | append: gap_minutes | append: ":" | append: gap_seconds %}
+          {% endif %}
+
+          {% assign search_text = row.name | append: " " | append: row.club | append: " " | append: row.bib | downcase %}
+        <tr id="{{ include.race }}-{{ forloop.index }}" data-search="{{ search_text | escape }}" data-gender="{{ row.gender }}" data-club="{{ row.club | escape }}">
+          <td class="results-num">{{ row.place }}</td>
+          {% if names.size > 0 %}<td class="results-name">{{ row.name | escape }}{% if row.club %}<span class="results-name-club">{{ row.club | escape }}</span>{% endif %}</td>{% endif %}
+          {% if race_clubs.size > 0 %}<td class="results-club">{{ row.club | escape }}</td>{% endif %}
+          {% if genders.size > 0 %}<td class="results-num">{{ gender_position }}</td>{% endif %}
+          {% if categories.size > 0 %}<td>{{ row.category | escape }}</td>{% endif %}
+          <td class="results-num">{{ row.time }}</td>
+          <td class="results-num results-gap">{{ gap_text }}</td>
+          {% if bibs.size > 0 %}<td class="results-num results-bib">{{ row.bib }}</td>{% endif %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>

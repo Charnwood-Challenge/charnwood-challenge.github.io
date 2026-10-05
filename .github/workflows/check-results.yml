@@ -1,0 +1,28 @@
+# Checks the results data for mistakes (duplicate bibs, places or times out of
+# order, clubs spelled two ways) and marks the lines on the pull request.
+name: Check results
+
+on:
+  pull_request:
+    paths:
+      - "_data/results/**"
+      - "_data/races.yml"
+      - "results/**"
+      - "scripts/check_results.py"
+  push:
+    branches: [master]
+    paths:
+      - "_data/results/**"
+      - "_data/races.yml"
+      - "results/**"
+      - "scripts/check_results.py"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 scripts/check_results.py

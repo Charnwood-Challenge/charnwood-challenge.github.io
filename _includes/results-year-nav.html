@@ -1,0 +1,7 @@
+{% assign result_years = site.pages | where: "layout", "results-year" | sort: "year" | reverse %}
+<nav class="results-years" aria-label="Results by year">
+  <a href="{{ site.baseurl }}/results/"{% if page.url == "/results/" %} aria-current="page"{% endif %}>All years</a>
+  {% for year_page in result_years %}
+  <a href="{{ site.baseurl }}{{ year_page.url }}"{% if year_page.url == page.url %} aria-current="page"{% endif %}>{{ year_page.year }}</a>
+  {% endfor %}
+</nav>

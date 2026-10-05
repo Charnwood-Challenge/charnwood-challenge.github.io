@@ -1,0 +1,59 @@
+---
+layout: page
+---
+{% comment %}
+  One year's results. The page's front matter lists the races to show, and each
+  race's results come from _data/results/<year>/<race>.csv.
+{% endcomment %}
+{% assign year = page.year | append: "" %}
+{% assign results = site.data.results[year] %}
+
+{% include results-year-nav.html %}
+
+{% if page.race_date %}
+<p class="results-date">{{ page.race_date | date: "%A %-d %B %Y" }}</p>
+{% endif %}
+
+{{ content }}
+
+{% if page.races.size > 0 %}
+  {% include results-leaders.html %}
+
+  {% assign clubs = "" | split: "" %}
+  {% for race in page.races %}
+    {% assign race_clubs = results[race] | map: "club" | compact %}
+    {% assign clubs = clubs | concat: race_clubs %}
+  {% endfor %}
+  {% assign clubs = clubs | uniq | sort_natural %}
+
+  <form class="results-filter" id="results-filter" role="search" hidden>
+    <label>
+      <span>Search</span>
+      <input type="search" name="q" placeholder="Name, club or bib" autocomplete="off">
+    </label>
+    <label>
+      <span>Gender</span>
+      <select name="gender">
+        <option value="">All</option>
+        <option>Female</option>
+        <option>Male</option>
+      </select>
+    </label>
+    {% if clubs.size > 0 %}
+    <label>
+      <span>Club</span>
+      <select name="club">
+        <option value="">All clubs</option>
+        {% for club in clubs %}<option>{{ club | escape }}</option>{% endfor %}
+      </select>
+    </label>
+    {% endif %}
+  </form>
+
+  {% for race in page.races %}
+    {% assign race_rows = results[race] %}
+    {% include results-table.html race=race rows=race_rows %}
+  {% endfor %}
+
+  <script src="{{ site.baseurl }}/assets/js/results.js" defer></script>
+{% endif %}

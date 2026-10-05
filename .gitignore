@@ -1,0 +1,8 @@
+# Created when building the site locally
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+.bundle/
+vendor/

@@ -1,0 +1,134 @@
+place,bib,time,name,gender,club
+1,511,1:07:33,Loïs Mougin,Male,
+2,557,1:11:55,Danny Warren,Male,Badgers
+3,570,1:12:41,Lee Oconnor,Male,Poplar Running Club
+4,405,1:14:53,Philip Ainsley,Male,
+5,551,1:15:36,Bob Templeman,Male,Formula One Circuit Crew
+6,515,1:15:51,Bruno Nikoloff,Male,Wreake Runners
+7,462,1:17:20,Peter Armstrong,Male,Hermitage Harriers
+8,571,1:17:50,Nick Barker,Male,Poplar Running Club
+9,547,1:18:54,Alex Taylor,Male,Eton Manor AC
+10,428,1:20:54,Andy Brown,Male,Poplar Running Club
+11,455,1:21:08,Phil Dunning,Male,Ivanhoe Runners
+12,439,1:22:31,Martin Button,Male,Poplar Running Club
+13,405,1:24:37,Philip Ainsley,Male,
+14,474,1:24:46,Philip Higgs,Male,Shepshed Running Club
+15,426,1:25:18,Lizzie Borrajo,Female,Wreake Runners
+16,441,1:26:18,Joe Cater,Male,
+17,418,1:26:24,Louis Barnes,Male,Ivanhoe Runners
+18,421,1:26:45,Peter Bee,Male,
+19,510,1:27:46,Amy Morrison,Female,
+20,522,1:28:04,Tom Piggin,Male,
+21,458,1:28:10,Alex Ferrari,Male,Holme Pierrepont Running Club
+22,413,1:28:12,Antony Armitage,Male,Barrow Runners
+23,424,1:30:36,James Booker,Male,
+24,500,1:30:43,Luke Martin,Male,Barrow Runners
+25,440,1:30:51,Gareth Carroll,Male,
+26,552,1:30:56,Sam Templeman,Male,Vegan Runners
+27,537,1:30:58,Thomas Simpson,Male,
+28,469,1:31:00,Danny Hall,Male,Barrow Runners
+29,565,1:31:20,James Wright,Male,
+30,564,1:31:24,Chris Wright,Male,
+31,411,1:31:29,Andrew Allsop,Male,Ivanhoe Runners
+32,545,1:32:50,Adam Sturgess,Male,
+33,548,1:33:08,Chris Taylor,Male,
+34,470,1:33:38,Sheryl Heath,Female,
+35,452,1:34:41,Matthew Denniff,Male,
+36,477,1:34:44,Glyn House,Male,
+37,446,1:35:08,Malcolm Cook,Male,Barrow Runners
+38,456,1:35:49,Jamie Lloyd Elliott,Male,Lindley Running Club
+39,536,1:36:42,Bryan Shipley,Male,
+40,567,1:36:56,Chris Bailey,Male,HIGHGATE HARRIERS
+41,521,1:37:08,Jim Phillips,Male,
+42,408,1:37:45,Jade Allan,Female,
+43,526,1:37:57,Dean Randle,Male,
+44,487,1:38:52,Jon Jorgensen,Male,
+45,457,1:38:55,Philip Fantham,Male,Barrow Runners
+46,503,1:39:05,Pawel Mazur,Male,Poplar Running Club
+47,435,1:39:35,Alice Bucklow,Female,Hermitage Harriers
+48,563,1:40:10,James Woodford,Male,Barrow Runners
+49,442,1:40:30,James Chandler,Male,
+50,423,1:40:55,Antonia Blackwell,Female,Ivanhoe Runners
+51,504,1:40:57,Christopher Merrick,Male,Squirrels Running Group
+52,533,1:41:17,Luke Saxton,Male,
+53,553,1:42:08,James Thomas,Male,
+54,443,1:42:42,Lester Cockerill,Male,
+55,422,1:42:50,Richard Bibb,Male,Shepshed Running Club
+56,549,1:43:18,Duncan Taylor,Male,
+57,501,1:43:25,John Matravers,Male,
+58,525,1:43:34,Axel Pouzet,Male,
+59,507,1:43:39,Robert Mooney,Male,
+60,491,1:44:09,Marc Kinch,Male,Long Eaton Running Club
+61,532,1:44:11,Jimmy Saunders,Male,
+62,427,1:44:41,Mark Bradford,Male,Ivanhoe Runners
+63,449,1:44:56,Scott Cramp,Male,
+64,562,1:45:24,Mark Wittering,Male,Huncote Harriers
+65,516,1:45:45,Claire Obrien,Female,
+66,517,1:45:47,Harry Obrien,Male,
+67,502,1:46:19,Joanne Matthews,Female,Hermitage Harriers
+68,451,1:46:21,Neil Danby,Male,Hermitage Harriers
+69,484,1:47:11,Helen Jinks,Female,Speedhub Triathlon Club
+70,572,1:48:49,Kathy Robinson,Female,Barrow Runners
+71,444,1:48:52,Amy Collier,Female,
+72,492,1:48:55,Russell King,Male,
+73,524,1:49:08,Alex Porter,Male,Poplar Running Club
+74,498,1:49:22,Andrew Marriott,Male,
+75,509,1:49:49,Julian Morgan,Male,
+76,520,1:50:21,Laura Pepper,Female,
+77,404,1:50:32,Muhammad Ahsan,Male,
+78,541,1:50:35,Debbie Sorby,Female,Charnwood Athletics
+79,472,1:50:41,Liz Hewitt,Female,Charnwood Athletics
+80,494,1:51:42,Wendy Lauberts,Female,Long Eaton Running Club
+81,429,1:51:49,Tracey Brown,Female,Long Eaton Running Club
+82,534,1:51:52,Zoe Sewter,Female,Hermitage Harriers
+83,542,1:51:57,Lauren Stacey,Female,
+84,489,1:52:10,Samantha Keating,Female,Desford Striders
+85,530,1:53:37,David Robson,Male,Barrow Runners
+86,415,1:54:09,David Baines,Male,Poplar Running Club
+87,546,1:54:15,Samuel Tanner,Male,
+88,414,1:54:17,Andrew Authur,Male,
+89,465,1:55:34,Grzegorz Gola,Male,
+90,529,1:56:00,Colin Rimmer,Male,Birstall Running Club
+91,450,1:56:20,Siobhan Creighton,Female,
+92,558,1:56:40,David Watt,Male,
+93,453,1:57:32,Katrina Dent,Female,
+94,505,1:58:46,Joey Millward,Male,JHPC
+95,514,1:58:55,Jenny Murphy,Female,Desford Striders
+96,419,1:59:06,Mary Barrowcliffe,Female,
+97,518,1:59:08,Matthew Peat,Male,Huncote Harriers
+98,523,1:59:51,Agnieszka Plociennik,Female,
+99,468,2:00:26,Roger Griffiths,Male,Barrow Runners
+100,490,2:01:06,Bethan Kench,Female,Huncote Harriers
+101,448,2:01:56,Molly Cooper,Female,Huncote Harriers
+102,499,2:02:08,Tom Marsland,Male,Shepshed Running Club
+103,463,2:02:24,Christine Fowler,Female,Desford Striders
+104,416,2:03:47,Darren Baldwin,Male,
+105,493,2:04:12,Elizabeth Lakin,Female,Long Eaton Running Club
+106,464,2:05:21,Madeline Froment,Female,
+107,417,2:05:25,Suzanne Baldwin,Female,
+108,568,2:07:41,Samantha Winter,Female,
+109,445,2:09:00,Emma Conway,Female,
+110,475,2:11:13,Diane Hill,Female,Long Eaton Running Club
+111,486,2:11:29,Jayne Jones,Female,Long Eaton Running Club
+112,508,2:13:05,Debbie Moore,Female,Hinckley Running Club
+113,454,2:13:10,Elaine Doran,Female,Hinckley Running Club
+114,538,2:15:05,Katherine Smith,Female,Wreake Runners
+115,543,2:16:28,Jo Stanton,Female,
+116,480,2:17:40,Sally Ikeringill,Female,
+117,566,2:17:55,Anthony Wright-Mullaney,Male,Long Eaton Running Club
+118,478,2:18:00,Jane Hudson,Female,Long Eaton Running Club
+119,481,2:19:53,Timothy Illson,Male,
+120,483,2:24:33,Lorraine Jex,Female,Wreake Runners
+121,559,2:24:36,Marsha Weale,Female,Wreake Runners
+122,573,2:24:39,Catherine Smith,Female,Shepshed Running Club
+123,479,2:24:44,Jenny Hurst,Female,Wreake Runners
+124,461,2:25:31,Liam Foran,Male,
+125,556,2:25:38,Sarah Warner,Female,
+126,476,2:25:49,Ceri Hingeley,Female,
+127,437,2:25:53,Emma Burrows,Female,
+128,482,2:25:56,Lucy Jadav,Female,
+129,436,2:26:46,Geoff Burbidge,Male,
+130,412,2:29:26,Emma Andrew,Female,
+131,466,2:34:43,Bea Gostynska,Female,Speedhub Triathlon Club
+132,550,2:37:16,Jonathan Taylor,Male,
+133,495,3:27:54,Sarah Leach,Female,Squirrels Running Group

@@ -1,0 +1,168 @@
+place,bib,time,name,gender,club
+1,545,01:09:55,Kane Porter,Male,Wreake Runners
+2,538,01:16:02,Graham Peacock,Male,Charnwood Athletics
+3,450,01:17:56,Paul Cumner,Male,
+4,503,01:18:25,Mark Lambell,Male,West End Runners
+5,427,01:18:35,Jason Brotherhood,Male,Coventry Godiva Harriers
+6,462,01:18:57,Phil Dunning,Male,Ivanhoe Runners
+7,472,01:20:54,Justin Gardner,Male,
+8,428,01:21:07,Andy Brown,Male,Poplar Running Club
+9,497,01:24:16,Richard Jinks,Male,Speedhub Triathlon Club
+10,453,01:24:37,Daniel Curtis,Male,Holme Pierrepont Running Club
+11,435,01:25:23,Martin Button,Male,Poplar Running Club
+12,445,01:26:11,James Collington,Male,
+13,597,01:26:20,Chris Wright,Male,
+14,569,01:26:42,Alex Taylor,Male,Eton Manor AC
+15,464,01:26:53,Alex Ferrari,Male,Holme Pierrepont Running Club
+16,557,01:27:06,Nigel Smith,Male,Poplar Running Club
+17,518,01:27:32,Gareth McGuire,Male,Coalville Triathlon Club
+18,567,01:27:41,Ben Swain,Male,Witham Runners (Lincolnshire)
+19,550,01:27:45,Matthew Ridge,Male,
+20,555,01:27:50,Thomas Simpson,Male,
+21,585,01:28:44,James Watkins,Male,Barrow Runners
+22,425,01:29:25,Andrew Boyd,Male,Speedhub Triathlon Club
+23,423,01:29:27,Callum Boulter,Male,Speedhub Triathlon Club
+24,491,01:29:30,Andrew Hough,Male,Ivanhoe Runners
+25,586,01:29:40,Harry White,Male,
+26,421,01:29:48,James Booker,Male,
+27,461,01:29:51,Chloe Dunning,Female,Ivanhoe Runners
+28,516,01:29:55,Joel May,Male,Hermitage Harriers
+29,588,01:30:02,Thomas Whitfield,Male,Peak Fell and Trail Crew
+30,436,01:30:20,Gareth Carroll,Male,
+31,546,01:30:33,Axel Pouzet,Male,
+32,509,01:30:36,Rose Lowry,Female,
+33,559,01:32:03,Michael Spencer,Male,
+34,543,01:32:08,Mark Platt,Male,
+35,431,01:32:22,Mark Burnley,Male,
+36,482,01:33:27,Paul Guyan,Male,
+37,570,01:33:45,Chris Taylor,Male,
+38,455,01:33:48,Brian Darby,Male,Shepshed Running Club
+39,488,01:33:51,Tristan Hart,Male,
+40,484,01:34:04,Luke Hammond,Male,
+41,592,01:34:06,Filip Wojcik,Male,
+42,401,01:34:22,Jade Allan,Female,
+43,447,01:34:42,Stephen Coombes,Male,
+44,507,01:35:21,Ross Little,Male,Leicester Triathlon Club
+45,584,01:35:32,David Ward-Stokes,Male,Northampton Road Runners
+46,506,01:36:11,Alex Lea,Male,
+47,474,01:36:18,Lee Godrich,Male,Barrow Runners
+48,520,01:36:35,Aaron Mclaughin,Male,
+49,413,01:37:04,Elizabeth Bedwell,Female,
+50,562,01:38:21,James Stilgoe,Male,
+51,576,01:38:34,Peter Thornton,Male,West End Runners
+52,463,01:39:18,Chris Dyson,Male,
+53,441,01:39:31,Ciaran Clarke,Male,
+54,565,01:40:05,Sarah Sutton,Female,
+55,478,01:40:38,Ali Green,Female,
+56,408,01:40:44,Cassandra Baron,Female,Wootton Road Runners
+57,510,01:40:48,Yifeng Ma,Male,
+58,442,01:40:51,Phil Clarke,Male,Barrow Runners
+59,537,01:40:57,Jared Patel,Male,
+60,514,01:41:02,Tom Marsland,Male,Shepshed Running Club
+61,415,01:41:18,Richard Bibb,Male,Shepshed Running Club
+62,498,01:41:37,Joshua Jones,Male,
+63,448,01:41:45,Scott Cramp,Male,
+64,540,01:41:57,Tim Philpott,Male,
+65,426,01:43:02,Mark Bradford,Male,Ivanhoe Runners
+66,490,01:43:20,Nick Hinde,Male,Charnwood Athletics
+67,524,01:44:33,Jacob Miles,Male,Leicestershire Orienteering Club
+68,496,01:44:57,Helen Jinks,Female,
+69,470,01:45:09,Paul Freeland,Male,
+70,542,01:45:16,Matt Pitt,Male,Shepshed Running Club
+71,530,01:45:42,Charlie Moss,Male,
+72,531,01:45:44,Daniella Moss,Female,
+73,579,01:46:10,Chris Trzcinski,Male,Barrow Runners
+74,600,01:46:30,Kathrine White,Female,Shepshed Running Club
+75,571,01:46:38,Duncan Taylor,Male,
+76,548,01:47:20,Jon Richardson,Male,Barrow Runners
+77,504,01:47:54,Harry Langham,Male,Birstall Running Club
+78,532,01:48:16,Claire Obrien,Female,
+79,533,01:48:18,Harry Obrien,Male,Barrow Runners
+80,515,01:49:10,Joanne Matthews,Female,Hermitage Harriers
+81,577,01:49:11,Grace Tongue,Female,
+82,529,01:49:13,Matthew Moore,Male,Hermitage Harriers
+83,437,01:49:15,Phil Casson,Male,Hermitage Harriers
+84,454,01:49:15,Neil Danby,Male,Hermitage Harriers
+85,467,01:49:21,Duncan Ford,Male,Hermitage Harriers
+86,480,01:49:24,Roger Griffiths,Male,Barrow Runners
+87,578,01:49:28,Cirhan Truswell,Female,Squirrels Running Group
+88,523,01:49:30,Christopher Merrick,Male,Squirrels Running Group
+89,473,01:49:33,Samantha Garside,Female,Kimberley & District Striders
+90,535,01:49:42,Elliott Olsen,Male,
+91,589,01:49:57,Paul Widdowfield,Male,
+92,404,01:50:05,David Baines,Male,Poplar Running Club
+93,573,01:50:07,Roger Taylor,Male,
+94,400,01:50:50,Justine Albert,Female,Barrow Runners
+95,519,01:52:27,Shirley Mcguire,Female,Coalville Triathlon Club
+96,471,01:52:55,Caroline Gardner,Female,
+97,440,01:53:36,Nivette Chester,Female,Badgers
+98,587,01:53:42,Stephanie White,Female,Badgers
+99,458,01:54:21,Katrina Dent,Female,
+100,477,01:54:26,Emma Gower,Female,
+101,511,01:54:41,Glenn Mander,Male,Lonely Goat RC
+102,528,01:55:05,Mark Montgomery,Male,Squirrels Running Group
+103,526,01:55:35,Alex Montgomery,Female,Squirrels Running Group
+104,451,01:56:13,Georgina Cursham,Female,
+105,406,01:56:14,Andy Barber,Male,
+106,468,01:56:16,Colin France,Male,Race Hub
+107,452,01:56:20,William Cursham,Male,
+108,399,01:56:24,Robin Barber,Male,MVH Triclub
+109,560,01:56:29,Lauren Stacey,Female,
+110,599,01:56:44,Eve Zhang,Female,
+111,465,01:56:47,Kerry Flinton,Female,Witham Runners (Lincolnshire)
+112,449,01:57:01,Siobhan Creighton,Female,
+113,438,01:57:48,Hannah Charlton,Female,
+114,512,01:57:51,Bethan Manning-Swallow,Female,
+115,502,01:58:05,Elizabeth Lakin,Female,Long Eaton Running Club
+116,422,01:59:00,Kevin Borley,Male,Coalville Triathlon Club
+117,476,01:59:25,David Gould,Male,Lichfield RC
+118,485,01:59:31,Kate Hardy,Female,
+119,493,01:59:33,Rob Hughes,Male,
+120,412,01:59:40,Nicholas Beck,Male,
+121,414,02:00:17,Aruna Bhagwan,Female,
+122,549,02:00:30,Madeline Riddle,Female,
+123,582,02:00:32,Claire Viney,Female,Rutland Run and Tri Club
+124,525,02:01:06,Alpesh Mistry,Male,
+125,439,02:01:08,Jason Chauhan,Male,
+126,541,02:01:44,Jane Pinder,Female,
+127,554,02:01:57,Joanne Shore,Female,
+128,505,02:02:13,Matthew Laws,Male,West End Runners
+129,553,02:03:36,Julie Shepherd,Female,Poplar Running Club
+130,552,02:03:38,Julia Sandford,Female,Speedhub Triathlon Club
+131,580,02:03:41,Tricia Valentine,Female,
+132,416,02:04:20,Duncan Bisatt,Male,
+133,544,02:04:35,Anthony Pollard,Male,Wigston Phoenix
+134,556,02:04:40,Debbie Smith,Female,Wigston Phoenix
+135,581,02:05:39,Maud van Soest,Female,Coalville Triathlon Club
+136,446,02:05:42,Shane Connellan,Male,Coalville Triathlon Club
+137,443,02:05:43,Rob Cleaver,Male,Coalville Triathlon Club
+138,411,02:05:59,Charlotte Beck,Female,
+139,575,02:06:01,Richard Thompson,Male,
+140,522,02:06:04,Lauren Merola,Female,
+141,563,02:07:27,Timothy Sturla,Male,Ivanhoe Runners
+142,403,02:08:20,Sally Allsopp,Female,
+143,574,02:08:23,Catherine Tew,Female,Holme Pierrepont Running Club
+144,558,02:08:35,Ollie Smith,Male,
+145,459,02:10:35,Adam Dovey,Male,
+146,460,02:10:37,Christine Dovey,Female,Wigston Phoenix
+147,489,02:10:39,Diane Hill,Female,Long Eaton Running Club
+148,517,02:11:34,Jean Robert Mbane,Male,
+149,595,02:11:55,Elaine Worth,Female,
+150,596,02:11:57,Paul Worth,Male,
+151,591,02:12:28,Samantha Winter,Female,
+152,501,02:15:24,David Kind,Male,Hermitage Harriers
+153,456,02:17:22,Christian Dawson,Male,
+154,564,02:17:22,Jeannette Sutton,Female,
+155,539,02:17:24,Jane Pearce,Female,
+156,420,02:17:45,Ian Bolton,Male,Ivanhoe Runners
+157,419,02:17:47,Ellen Bolton,Female,
+158,583,02:18:11,Vanessa Walker,Female,
+159,486,02:18:22,Melissa Harley-Hotchkiss,Female,Stilton Striders
+160,483,02:20:58,Gareth Haines,Male,
+161,499,02:23:17,Corey Jordan,Male,
+162,561,02:23:27,Cathy Stevenson,Female,
+163,475,02:25:49,Bea Gostynska,Female,
+164,487,02:26:48,Harley Harrison,Female,
+165,508,02:27:04,Emanuela Lo Faro,Female,
+166,513,02:37:30,Nicky Marlow,Female,
+167,572,02:43:43,Jonathan Taylor,Male,

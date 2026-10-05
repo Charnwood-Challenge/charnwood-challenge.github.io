@@ -1,0 +1,44 @@
+place,bib,time,gender,category
+1,208,6:14,Male,11+
+2,204,6:20,Male,11+
+3,224,6:24,Female,11+
+4,225,6:28,Female,11+
+5,213,6:38,Male,11+
+6,212,6:45,Male,11+
+7,205,7:05,Male,11+
+8,203,7:07,Male,11+
+9,231,7:11,Male,8 to 10
+10,209,7:13,Male,8 to 10
+11,227,7:15,Male,8 to 10
+12,206,7:38,Male,8 to 10
+13,228,7:43,Female,under 8
+14,211,7:45,Male,5 & under
+15,238,8:10,Male,8 to 10
+16,210,8:14,Female,5 & under
+17,226,8:20,Female,under 8
+18,240,8:25,Male,under 8
+19,202,8:33,Male,under 8
+20,215,8:44,Female,8 to 10
+21,229,8:47,Female,under 8
+22,222,8:51,Male,under 8
+23,220,8:55,Female,8 to 10
+24,235,9:08,Female,8 to 10
+25,237,9:13,Female,8 to 10
+26,223,9:16,Male,under 8
+27,207,9:20,Female,8 to 10
+28,242,9:25,Male,under 8
+29,239,9:27,Male,5 & under
+30,214,9:35,Male,under 8
+31,243,9:43,Male,under 8
+32,216,9:46,Male,under 8
+33,230,9:48,Female,8 to 10
+34,232,9:51,Male,under 8
+35,219,10:35,Male,8 to 10
+36,236,11:09,Male,under 8
+37,241,11:13,Male,under 8
+38,217,11:15,Male,11+
+39,218,11:25,Male,under 8
+40,233,11:31,Male,8 to 10
+41,234,11:33,Male,8 to 10
+42,201,12:55,Female,under 8
+43,221,14:13,Female,5 & under
