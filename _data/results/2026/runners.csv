@@ -72,7 +72,7 @@ place,bib,time,name,gender,club
 71,530,01:45:42,Charlie Moss,Male,
 72,531,01:45:44,Daniella Moss,Female,
 73,579,01:46:10,Chris Trzcinski,Male,Barrow Runners
-74,600,01:46:30,Kathrine White,Female,Shepshed Running Club
+74,600,01:46:30,Katharine White,Female,Shepshed Running Club
 75,571,01:46:38,Duncan Taylor,Male,
 76,548,01:47:20,Jon Richardson,Male,Barrow Runners
 77,504,01:47:54,Harry Langham,Male,Birstall Running Club
@@ -150,19 +150,19 @@ place,bib,time,name,gender,club
 149,595,02:11:55,Elaine Worth,Female,
 150,596,02:11:57,Paul Worth,Male,
 151,591,02:12:28,Samantha Winter,Female,
-152,501,02:15:24,David Kind,Male,Hermitage Harriers
-153,456,02:17:22,Christian Dawson,Male,
-154,564,02:17:22,Jeannette Sutton,Female,
-155,539,02:17:24,Jane Pearce,Female,
-156,420,02:17:45,Ian Bolton,Male,Ivanhoe Runners
-157,419,02:17:47,Ellen Bolton,Female,
-158,583,02:18:11,Vanessa Walker,Female,
-159,486,02:18:22,Melissa Harley-Hotchkiss,Female,Stilton Striders
-160,483,02:20:58,Gareth Haines,Male,
-161,499,02:23:17,Corey Jordan,Male,
-162,561,02:23:27,Cathy Stevenson,Female,
-163,475,02:25:49,Bea Gostynska,Female,
-164,487,02:26:48,Harley Harrison,Female,
-165,508,02:27:04,Emanuela Lo Faro,Female,
-166,513,02:37:30,Nicky Marlow,Female,
-167,572,02:43:43,Jonathan Taylor,Male,
+152,456,02:17:22,Christian Dawson,Male,
+153,564,02:17:22,Jeannette Sutton,Female,
+154,539,02:17:24,Jane Pearce,Female,
+155,420,02:17:45,Ian Bolton,Male,Ivanhoe Runners
+156,419,02:17:47,Ellen Bolton,Female,
+157,583,02:18:11,Vanessa Walker,Female,
+158,486,02:18:22,Melissa Harley-Hotchkiss,Female,Stilton Striders
+159,483,02:20:58,Gareth Haines,Male,
+160,499,02:23:17,Corey Jordan,Male,
+161,561,02:23:27,Cathy Stevenson,Female,
+162,475,02:25:49,Bea Gostynska,Female,
+163,487,02:26:48,Harley Harrison,Female,
+164,508,02:27:04,Emanuela Lo Faro,Female,
+165,513,02:37:30,Nicky Marlow,Female,
+166,572,02:43:43,Jonathan Taylor,Male,
+167,501,02:15:24,David Kind,Male,Hermitage Harriers
